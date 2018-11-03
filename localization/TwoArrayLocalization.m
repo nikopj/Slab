@@ -27,7 +27,7 @@ avphi1 = mean(phi1);
 avth2 = mean(theta2);
 avphi2 = mean(phi2);
 
-[~, pangles1, ~, ~,ant1,Rhat1] = func_musicboi(num_samples, num_antennas, tags, dol, SNR, grid_res,r1);
+[~, pangles1, ~, ~,ant1,Rhat1] = func_musicboi(num_samples, , tags, dol, SNR, grid_res,r1);
 [~, pangles2, ~, ~,ant2,Rhat2] = func_musicboi(num_samples, num_antennas, tags, dol, SNR, grid_res,r2);
 %[~, pangles3, ~, ~,~,Rhat3] = func_musicboi(num_samples, num_antennas, tags-[50,50,0], dol, SNR, grid_res,r1);
 

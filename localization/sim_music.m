@@ -21,12 +21,8 @@ function [AOA,AOA_hat,S_music] = ...
     sim_music(num_samples, tag_locs, ant_locs, dol, SNR, grid_res)
 
 % 1: if eigen values are in ascending order, 0 else
-% on Senior15, use 0, else use 1
+% on Senior15 use 1, else use 0
 EIG_SWITCH = 1;
-
-% freq dependent info
-lambda = 3e8/915e6;
-d = dol*lambda;
 
 % constants
 M = size(ant_locs,2); % number of antennas
@@ -45,6 +41,8 @@ tag_locs = tag_locs - center;
 [theta_act, phi_act] = relativeAngle(ant_locs,tag_locs);
 AOA = [sum(theta_act,1) ; sum(phi_act,1)] / M;
 
+%{ 
+% FINITE DISTANCE
 % unit wave number vector components, each (MxN)
 ax = sind(phi_act).*cosd(theta_act);
 ay = sind(phi_act).*sind(theta_act);
@@ -56,6 +54,14 @@ rz = repmat(ant_locs(3,:)',1,N);
 
 % steering vectors (M,N)
 S = exp(2*pi*1j*dol*( rx.*ax + ry.*ay + rz.*az )) / sqrt(M);
+%}
+
+% INFINITE DISTANCE
+t = AOA(1,:);
+p = AOA(2,:);
+ak = [sind(p).*cosd(t); sind(p).*sind(t); cosd(p)];
+S = exp(2*pi*1j*dol*ant_locs.'*ak);
+
 % cplx noise (M,num_samples)
 v = 10^(-SNR/20)*sqrt(1/2)*( randn(M,num_samples) + 1j*randn(M,num_samples) );
 % msg matrix (random phase constant amplitude)
@@ -72,11 +78,12 @@ Rhat = zeros(M);
 for ii=1:num_samples
     Rhat = Rhat + A(:,ii)*A(:,ii)';
 end
+Rhat = Rhat/num_samples;
 
 % meshgrid variables
 theta_vec = linspace(-180,180,grid_res);
 phi_vec   = linspace(0,90,grid_res);
-[THETA_GRID, PHI_GRID] = meshgrid(theta_vec, phi_vec);
+[THETA_GRID, PHI_GRID] = ndgrid(theta_vec, phi_vec);
 ak = zeros(grid_res,grid_res,3);
 ak(:,:,1) = sind(PHI_GRID).*cosd(THETA_GRID);
 ak(:,:,2) = sind(PHI_GRID).*sind(THETA_GRID);
@@ -84,18 +91,19 @@ ak(:,:,3) = cosd(PHI_GRID);
 S_music = nan(grid_res);
 
 % finds G, the noise subspace matrix of Rhat
-[V, ~] = eig(Rhat);
+[V, lambda] = eig(Rhat);
 if EIG_SWITCH
     G = V(:,1:end-N);
 else
     G = V(:,1+N:end);
 end
+diag(lambda)
 
 % music spectrum 
 for ii=1:grid_res
     for jj=1:grid_res
         dir_vec = reshape( ak(ii,jj,:), 1, 3);
-        s = exp(-2*pi*1j*ant_locs.'*dir_vec.');
+        s = exp(-2*pi*1j*dir_vec*ant_locs).';
         S_music(ii,jj) = 1./(s'*(G*G')*s);
     end
 end
