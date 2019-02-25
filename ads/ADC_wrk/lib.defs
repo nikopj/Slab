@@ -1,0 +1,4 @@
+INCLUDE $HPEESOF_DIR/oalibs/analog_rf.defs
+INCLUDE $HOME/Documents/ADS/libs/Murata/lib.defs
+DEFINE ADC_lib ADC_lib
+ASSIGN ADC_lib libMode shared

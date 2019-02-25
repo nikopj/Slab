@@ -1,0 +1,736 @@
+Info: Checking netlist symbol footprint "U4:/5C6C95FB:SON50P200X200X80-9N:SON50P200X200X80-9N".
+
+Info: Checking netlist symbol footprint "J7:/5C766273:5-1634503-1:TE_5-1634503-1".
+
+Info: Checking netlist symbol footprint "U2:/5C6C9572:SOT95P285X145-5N:SOT95P285X145-5N".
+
+Info: Checking netlist symbol footprint "J6:/5C833FE4:5-1634503-1:TE_5-1634503-1".
+
+Info: Checking netlist symbol footprint "J5:/5C85A9DF:Connector_Wire:SolderWirePad_1x01_Drill0.8mm".
+
+Info: Checking netlist symbol footprint "J4:/5C733ABD:EMPCB.SMAFSTJ.B.HT:TAOGLAS_EMPCB.SMAFSTJ.B.HT".
+
+Info: Checking netlist symbol footprint "J3:/5C866322:Connector_Wire:SolderWirePad_1x01_Drill0.8mm".
+
+Info: Checking netlist symbol footprint "U3:/5C725B15:ISL6292-2CR4Z:QFN65P400X400X100-17N".
+
+Info: Checking netlist symbol footprint "J2:/5C866232:Connector_Wire:SolderWirePad_1x01_Drill0.8mm".
+
+Info: Checking netlist symbol footprint "J1:/5C6C93AF:EMPCB.SMAFSTJ.B.HT:TAOGLAS_EMPCB.SMAFSTJ.B.HT".
+
+Info: Checking netlist symbol footprint "C30:/5C7AC827:CC0402ZRY5V7BB104:CAPC1005X55N".
+
+Info: Checking netlist symbol footprint "C29:/5C7AC820:CC0402ZRY5V7BB104:CAPC1005X55N".
+
+Info: Checking netlist symbol footprint "C28:/5C7AC819:CC0402ZRY5V7BB104:CAPC1005X55N".
+
+Info: Checking netlist symbol footprint "C27:/5C93D167:CC0402ZRY5V7BB104:CAPC1005X55N".
+
+Info: Checking netlist symbol footprint "C26:/5C782647:CC0402ZRY5V7BB104:CAPC1005X55N".
+
+Info: Checking netlist symbol footprint "U1:/5C6C9C01:CC0402ZRY5V7BB104:CAPC1005X55N".
+
+Info: Checking netlist symbol footprint "C25:/5C93D158:CC0402ZRY5V7BB104:CAPC1005X55N".
+
+Info: Checking netlist symbol footprint "C24:/5C93D13C:CC0402ZRY5V7BB104:CAPC1005X55N".
+
+Info: Checking netlist symbol footprint "C23:/5C782595:CC0402ZRY5V7BB104:CAPC1005X55N".
+
+Info: Checking netlist symbol footprint "U5:/5C6C9D0A:OSCSC508P1420X914X530-4N:OSCSC508P1420X914X530-4N".
+
+Info: Checking netlist symbol footprint "C22:/5C93D17C:CC0402ZRY5V7BB104:CAPC1005X55N".
+
+Info: Checking netlist symbol footprint "C21:/5C93D1AF:CC0402ZRY5V7BB104:CAPC1005X55N".
+
+Info: Checking netlist symbol footprint "U6:/5C6C9A03:FIL_MEM2012V121RT001:FIL_MEM2012V121RT001".
+
+Info: Checking netlist symbol footprint "C20:/5C93D0E8:CC0402ZRY5V7BB104:CAPC1005X55N".
+
+Info: Checking netlist symbol footprint "C19:/5C782451:CC0402ZRY5V7BB104:CAPC1005X55N".
+
+Info: Checking netlist symbol footprint "U7:/5C6C96B3:CC0402ZRY5V7BB104:CAPC1005X55N".
+
+Info: Checking netlist symbol footprint "C18:/5C93D197:CC0402ZRY5V7BB104:CAPC1005X55N".
+
+Info: Checking netlist symbol footprint "U8:/5C6C9782:B39871B3725U410:SON120P300X300X110-6N".
+
+Info: Checking netlist symbol footprint "C17:/5CA487E8:CC0402ZRY5V7BB104:CAPC1005X55N".
+
+Info: Checking netlist symbol footprint "C16:/5CA487FD:CC0402ZRY5V7BB104:CAPC1005X55N".
+
+Info: Checking netlist symbol footprint "L5:/5C6CA99B:CC0402ZRY5V7BB104:CAPC1005X55N".
+
+Info: Checking netlist symbol footprint "L13:/5C93D151:CRCW06030000Z0EB:0603".
+
+Info: Checking netlist symbol footprint "L12:/5CA48804:CC0402ZRY5V7BB104:CAPC1005X55N".
+
+Info: Checking netlist symbol footprint "L14:/5C93D143:CRCW06030000Z0EB:0603".
+
+Info: Checking netlist symbol footprint "L11:/5CA487EF:CC0402ZRY5V7BB104:CAPC1005X55N".
+
+Info: Checking netlist symbol footprint "L15:/5C93D14A:CRCW06030000Z0EB:0603".
+
+Info: Checking netlist symbol footprint "L10:/5CA487F6:CC0402ZRY5V7BB104:CAPC1005X55N".
+
+Info: Checking netlist symbol footprint "R1:/5C728B05:CRCW06030000Z0EB:0603".
+
+Info: Checking netlist symbol footprint "L9:/5C6CAAE6:CC0402ZRY5V7BB104:CAPC1005X55N".
+
+Info: Checking netlist symbol footprint "L8:/5C8B3505:CC0402ZRY5V7BB104:CAPC1005X55N".
+
+Info: Checking netlist symbol footprint "R2:/5C728D3E:CRCW06030000Z0EB:0603".
+
+Info: Checking netlist symbol footprint "L7:/5C8AD28C:CC0402ZRY5V7BB104:CAPC1005X55N".
+
+Info: Checking netlist symbol footprint "R3:/5C6CB120:CC0402ZRY5V7BB104:CAPC1005X55N".
+
+Info: Checking netlist symbol footprint "L6:/5C8B952F:CC0402ZRY5V7BB104:CAPC1005X55N".
+
+Info: Checking netlist symbol footprint "R4:/5C766265:CRCW06030000Z0EB:0603".
+
+Info: Checking netlist symbol footprint "C1:/5C728858:CC0402ZRY5V7BB104:CAPC1005X55N".
+
+Info: Checking netlist symbol footprint "L4:/5C6CA9F9:CC0402ZRY5V7BB104:CAPC1005X55N".
+
+Info: Checking netlist symbol footprint "R5:/5C81A448:CRCW06030000Z0EB:0603".
+
+Info: Checking netlist symbol footprint "L3:/5C87C1E7:CC0402ZRY5V7BB104:CAPC1005X55N".
+
+Info: Checking netlist symbol footprint "R6:/5C81A16D:CRCW06030000Z0EB:0603".
+
+Info: Checking netlist symbol footprint "L2:/5C87BE3C:CC0402ZRY5V7BB104:CAPC1005X55N".
+
+Info: Checking netlist symbol footprint "R7:/5C76626C:CRCW06030000Z0EB:0603".
+
+Info: Checking netlist symbol footprint "L1:/5C87BF4E:CC0402ZRY5V7BB104:CAPC1005X55N".
+
+Info: Checking netlist symbol footprint "J11:/5C6C9F3D:5-1634503-1:TE_5-1634503-1".
+
+Info: Checking netlist symbol footprint "R8:/5C7F7FB8:CRCW06030000Z0EB:0603".
+
+Info: Checking netlist symbol footprint "J10:/5C7EF351:Connector_Wire:SolderWirePad_1x01_Drill0.8mm".
+
+Info: Checking netlist symbol footprint "J9:/5C7E721C:Connector_Wire:SolderWirePad_1x01_Drill0.8mm".
+
+Info: Checking netlist symbol footprint "R9:/5C7F7FBF:CRCW06030000Z0EB:0603".
+
+Info: Checking netlist symbol footprint "J8:/5C7F7FC6:5-1634503-1:TE_5-1634503-1".
+
+Info: Checking netlist symbol footprint "C2:/5C87C129:CC0402ZRY5V7BB104:CAPC1005X55N".
+
+Info: Checking netlist symbol footprint "U10:/5C93D0E1:ISL6292-2CR4Z:QFN65P400X400X100-17N".
+
+Info: Checking netlist symbol footprint "C3:/5C87BD8E:CC0402ZRY5V7BB104:CAPC1005X55N".
+
+Info: Checking netlist symbol footprint "U11:/5C6C9EF3:LP3985IM5-5.0:SOT95P300X120-5N".
+
+Info: Checking netlist symbol footprint "C11:/5C8B9B12:CC0402ZRY5V7BB104:CAPC1005X55N".
+
+Info: Checking netlist symbol footprint "C14:/5C6CAB4E:CC0402ZRY5V7BB104:CAPC1005X55N".
+
+Info: Checking netlist symbol footprint "C7:/5C934F7C:CC0402ZRY5V7BB104:CAPC1005X55N".
+
+Info: Checking netlist symbol footprint "C10:/5C8AC422:CC0402ZRY5V7BB104:CAPC1005X55N".
+
+Info: Checking netlist symbol footprint "C6:/5C6CA831:CC0402ZRY5V7BB104:CAPC1005X55N".
+
+Info: Checking netlist symbol footprint "C4:/5C916D1D:CC0402ZRY5V7BB104:CAPC1005X55N".
+
+Info: Checking netlist symbol footprint "U12:/5C6C9AC7:FIL_NFM21PC105B1C3D:FIL_NFM21PC105B1C3D".
+
+Info: Checking netlist symbol footprint "U9:/5C6C96EB:CC0402ZRY5V7BB104:CAPC1005X55N".
+
+Info: Checking netlist symbol footprint "C8:/5C8F256B:CC0402ZRY5V7BB104:CAPC1005X55N".
+
+Info: Checking netlist symbol footprint "C15:/5C76625E:CC0402ZRY5V7BB104:CAPC1005X55N".
+
+Info: Checking netlist symbol footprint "C12:/5C8D12B4:CC0402ZRY5V7BB104:CAPC1005X55N".
+
+Info: Checking netlist symbol footprint "U13:/5C6C9DDE:LP3985IM5-5.0:SOT95P300X120-5N".
+
+Info: Checking netlist symbol footprint "C13:/5C6CAEAA:CC0402ZRY5V7BB104:CAPC1005X55N".
+
+Info: Checking netlist symbol footprint "C5:/5C7B070C:CC0402ZRY5V7BB104:CAPC1005X55N".
+
+Info: Checking netlist symbol footprint "C9:/5C6CAA4C:CC0402ZRY5V7BB104:CAPC1005X55N".
+
+Changing footprint "U11:/5C6C9EF3" pad "1" net name from "" to "Net-(C19-Pad2)".
+
+Changing footprint "U11:/5C6C9EF3" pad "2" net name from "" to "GND".
+
+Adding new symbol "R8:/5C7F7FB8" footprint "CRCW06030000Z0EB:0603".
+
+Changing footprint "R6:/5C81A16D" pad "1" net name from "" to "Net-(R5-Pad2)".
+
+Changing footprint "R6:/5C81A16D" pad "2" net name from "" to "Net-(C16-Pad2)".
+
+Adding new symbol "R6:/5C81A16D" footprint "CRCW06030000Z0EB:0603".
+
+Changing footprint "U11:/5C6C9EF3" pad "3" net name from "" to "Net-(C19-Pad2)".
+
+Changing footprint "R5:/5C81A448" pad "2" net name from "" to "Net-(R5-Pad2)".
+
+Changing footprint "U11:/5C6C9EF3" pad "4" net name from "" to "Net-(C23-Pad2)".
+
+Changing footprint "R5:/5C81A448" pad "1" net name from "" to "Net-(J6-Pad1)".
+
+Adding new symbol "R7:/5C76626C" footprint "CRCW06030000Z0EB:0603".
+
+Changing footprint "R7:/5C76626C" pad "1" net name from "" to "Net-(C15-Pad1)".
+
+Changing footprint "R7:/5C76626C" pad "2" net name from "" to "Net-(J7-Pad1)".
+
+Adding new symbol "U11:/5C6C9EF3" footprint "LP3985IM5-5.0:SOT95P300X120-5N".
+
+Adding new symbol "R4:/5C766265" footprint "CRCW06030000Z0EB:0603".
+
+Changing footprint "R8:/5C7F7FB8" pad "1" net name from "" to "Net-(J8-Pad1)".
+
+Changing footprint "R8:/5C7F7FB8" pad "2" net name from "" to "Net-(R8-Pad2)".
+
+Changing footprint "U10:/5C93D0E1" pad "17" net name from "" to "GND".
+
+Changing footprint "U10:/5C93D0E1" pad "16" net name from "" to "Net-(U10-Pad16)".
+
+Adding new symbol "R9:/5C7F7FBF" footprint "CRCW06030000Z0EB:0603".
+
+Changing footprint "R9:/5C7F7FBF" pad "2" net name from "" to "RFout".
+
+Changing footprint "R9:/5C7F7FBF" pad "1" net name from "" to "Net-(R8-Pad2)".
+
+Changing footprint "U10:/5C93D0E1" pad "15" net name from "" to "Net-(C20-Pad2)".
+
+Adding new symbol "U1:/5C6C9C01" footprint "CC0402ZRY5V7BB104:CAPC1005X55N".
+
+Changing footprint "U10:/5C93D0E1" pad "14" net name from "" to "Net-(C18-Pad2)".
+
+Changing footprint "U1:/5C6C9C01" pad "1" net name from "" to "Net-(U1-Pad1)".
+
+Changing footprint "L14:/5C93D143" pad "1" net name from "" to "Net-(C24-Pad2)".
+
+Adding new symbol "R1:/5C728B05" footprint "CRCW06030000Z0EB:0603".
+
+Changing footprint "U13:/5C6C9DDE" pad "5" net name from "" to "+3V3".
+
+Changing footprint "L15:/5C93D14A" pad "1" net name from "" to "Net-(C25-Pad2)".
+
+Changing footprint "L15:/5C93D14A" pad "2" net name from "" to "Net-(C24-Pad2)".
+
+Changing footprint "U13:/5C6C9DDE" pad "4" net name from "" to "Net-(C29-Pad2)".
+
+Adding new symbol "L15:/5C93D14A" footprint "CRCW06030000Z0EB:0603".
+
+Changing footprint "U13:/5C6C9DDE" pad "3" net name from "" to "Net-(C19-Pad2)".
+
+Changing footprint "L14:/5C93D143" pad "2" net name from "" to "Net-(C22-Pad2)".
+
+Changing footprint "R1:/5C728B05" pad "1" net name from "" to "Net-(C5-Pad1)".
+
+Adding new symbol "L14:/5C93D143" footprint "CRCW06030000Z0EB:0603".
+
+Changing footprint "U13:/5C6C9DDE" pad "2" net name from "" to "GND".
+
+Changing footprint "U13:/5C6C9DDE" pad "1" net name from "" to "Net-(C19-Pad2)".
+
+Changing footprint "L13:/5C93D151" pad "2" net name from "" to "Net-(C25-Pad2)".
+
+Changing footprint "L13:/5C93D151" pad "1" net name from "" to "Net-(C24-Pad1)".
+
+Adding new symbol "L13:/5C93D151" footprint "CRCW06030000Z0EB:0603".
+
+Adding new symbol "C1:/5C728858" footprint "CC0402ZRY5V7BB104:CAPC1005X55N".
+
+Adding new symbol "R5:/5C81A448" footprint "CRCW06030000Z0EB:0603".
+
+Changing footprint "R1:/5C728B05" pad "2" net name from "" to "Net-(C1-Pad1)".
+
+Adding new symbol "U13:/5C6C9DDE" footprint "LP3985IM5-5.0:SOT95P300X120-5N".
+
+Adding new symbol "R2:/5C728D3E" footprint "CRCW06030000Z0EB:0603".
+
+Changing footprint "R2:/5C728D3E" pad "2" net name from "" to "Net-(J4-Pad1)".
+
+Changing footprint "U12:/5C6C9AC7" pad "3" net name from "" to "Net-(J11-Pad1)".
+
+Changing footprint "R2:/5C728D3E" pad "1" net name from "" to "Net-(C1-Pad1)".
+
+Adding new symbol "R3:/5C6CB120" footprint "CC0402ZRY5V7BB104:CAPC1005X55N".
+
+Changing footprint "U12:/5C6C9AC7" pad "1" net name from "" to "Net-(C27-Pad2)".
+
+Changing footprint "R3:/5C6CB120" pad "1" net name from "" to "Net-(C9-Pad2)".
+
+Changing footprint "R3:/5C6CB120" pad "2" net name from "" to "+3V3".
+
+Adding new symbol "U12:/5C6C9AC7" footprint "FIL_NFM21PC105B1C3D:FIL_NFM21PC105B1C3D".
+
+Changing footprint "U10:/5C93D0E1" pad "12" net name from "" to "GND".
+
+Changing footprint "R4:/5C766265" pad "2" net name from "" to "Net-(C15-Pad1)".
+
+Changing footprint "R4:/5C766265" pad "1" net name from "" to "LO2".
+
+Changing footprint "U11:/5C6C9EF3" pad "5" net name from "" to "+5V".
+
+Changing footprint "U4:/5C6C95FB" pad "6" net name from "" to "+3V3".
+
+Changing footprint "U5:/5C6C9D0A" pad "3" net name from "" to "Net-(C15-Pad2)".
+
+Changing footprint "U5:/5C6C9D0A" pad "2" net name from "" to "GND".
+
+Changing footprint "U5:/5C6C9D0A" pad "1" net name from "" to "Net-(J5-Pad1)".
+
+Adding new symbol "U10:/5C93D0E1" footprint "ISL6292-2CR4Z:QFN65P400X400X100-17N".
+
+Adding new symbol "U5:/5C6C9D0A" footprint "OSCSC508P1420X914X530-4N:OSCSC508P1420X914X530-4N".
+
+Changing footprint "U4:/5C6C95FB" pad "8" net name from "" to "Net-(U4-Pad8)".
+
+Changing footprint "U10:/5C93D0E1" pad "1" net name from "" to "Net-(U10-Pad1)".
+
+Changing footprint "U4:/5C6C95FB" pad "7" net name from "" to "Net-(C14-Pad2)".
+
+Changing footprint "U5:/5C6C9D0A" pad "4" net name from "" to "+5V".
+
+Changing footprint "U4:/5C6C95FB" pad "5" net name from "" to "Net-(U4-Pad5)".
+
+Changing footprint "U10:/5C93D0E1" pad "2" net name from "" to "Net-(C16-Pad1)".
+
+Changing footprint "U4:/5C6C95FB" pad "4" net name from "" to "Net-(U4-Pad4)".
+
+Changing footprint "U4:/5C6C95FB" pad "3" net name from "" to "Net-(C9-Pad2)".
+
+Changing footprint "U4:/5C6C95FB" pad "2" net name from "" to "Net-(L4-Pad1)".
+
+Changing footprint "U10:/5C93D0E1" pad "3" net name from "" to "Net-(C17-Pad2)".
+
+Changing footprint "U4:/5C6C95FB" pad "1" net name from "" to "Net-(U4-Pad1)".
+
+Adding new symbol "U4:/5C6C95FB" footprint "SON50P200X200X80-9N:SON50P200X200X80-9N".
+
+Adding new symbol "U7:/5C6C96B3" footprint "CC0402ZRY5V7BB104:CAPC1005X55N".
+
+Changing footprint "U8:/5C6C9782" pad "5" net name from "" to "Net-(U8-Pad5)".
+
+Changing footprint "U8:/5C6C9782" pad "3" net name from "" to "GND".
+
+Changing footprint "U8:/5C6C9782" pad "2" net name from "" to "Net-(U7-Pad4)".
+
+Changing footprint "U8:/5C6C9782" pad "1" net name from "" to "GND".
+
+Changing footprint "U8:/5C6C9782" pad "6" net name from "" to "GND".
+
+Adding new symbol "U8:/5C6C9782" footprint "B39871B3725U410:SON120P300X300X110-6N".
+
+Changing footprint "U7:/5C6C96B3" pad "2" net name from "" to "GND".
+
+Changing footprint "U7:/5C6C96B3" pad "1" net name from "" to "Net-(C14-Pad1)".
+
+Changing footprint "U10:/5C93D0E1" pad "4" net name from "" to "Net-(U10-Pad4)".
+
+Adding new symbol "U9:/5C6C96EB" footprint "CC0402ZRY5V7BB104:CAPC1005X55N".
+
+Changing footprint "U9:/5C6C96EB" pad "2" net name from "" to "GND".
+
+Changing footprint "U6:/5C6C9A03" pad "2" net name from "" to "GND".
+
+Changing footprint "U6:/5C6C9A03" pad "3" net name from "" to "Net-(R5-Pad2)".
+
+Changing footprint "U6:/5C6C9A03" pad "1" net name from "" to "Net-(C12-Pad2)".
+
+Adding new symbol "U6:/5C6C9A03" footprint "FIL_MEM2012V121RT001:FIL_MEM2012V121RT001".
+
+Changing footprint "U9:/5C6C96EB" pad "1" net name from "" to "Net-(U8-Pad5)".
+
+Changing footprint "U2:/5C6C9572" pad "4" net name from "" to "Net-(J3-Pad1)".
+
+Changing footprint "U3:/5C725B15" pad "15" net name from "" to "Net-(C5-Pad2)".
+
+Changing footprint "U10:/5C93D0E1" pad "8" net name from "" to "Net-(U10-Pad8)".
+
+Changing footprint "U3:/5C725B15" pad "16" net name from "" to "Net-(U3-Pad16)".
+
+Changing footprint "U3:/5C725B15" pad "17" net name from "" to "GND".
+
+Changing footprint "U10:/5C93D0E1" pad "9" net name from "" to "GND".
+
+Adding new symbol "U3:/5C725B15" footprint "ISL6292-2CR4Z:QFN65P400X400X100-17N".
+
+Changing footprint "U10:/5C93D0E1" pad "10" net name from "" to "Net-(C24-Pad1)".
+
+Changing footprint "U2:/5C6C9572" pad "5" net name from "" to "Net-(J2-Pad1)".
+
+Changing footprint "U3:/5C725B15" pad "14" net name from "" to "Net-(C4-Pad2)".
+
+Changing footprint "U10:/5C93D0E1" pad "11" net name from "" to "Net-(C22-Pad2)".
+
+Changing footprint "U2:/5C6C9572" pad "3" net name from "" to "Net-(C6-Pad2)".
+
+Changing footprint "U2:/5C6C9572" pad "2" net name from "" to "GND".
+
+Changing footprint "U8:/5C6C9782" pad "4" net name from "" to "GND".
+
+Changing footprint "U2:/5C6C9572" pad "1" net name from "" to "Net-(J1-Pad1)".
+
+Adding new symbol "U2:/5C6C9572" footprint "SOT95P285X145-5N:SOT95P285X145-5N".
+
+Changing footprint "U10:/5C93D0E1" pad "13" net name from "" to "Net-(U10-Pad13)".
+
+Changing footprint "U3:/5C725B15" pad "7" net name from "" to "+5V".
+
+Changing footprint "U3:/5C725B15" pad "1" net name from "" to "Net-(U3-Pad1)".
+
+Changing footprint "U3:/5C725B15" pad "2" net name from "" to "Net-(C2-Pad1)".
+
+Changing footprint "U3:/5C725B15" pad "3" net name from "" to "Net-(C3-Pad2)".
+
+Changing footprint "U10:/5C93D0E1" pad "5" net name from "" to "+5V".
+
+Changing footprint "U3:/5C725B15" pad "4" net name from "" to "Net-(U3-Pad4)".
+
+Changing footprint "U3:/5C725B15" pad "5" net name from "" to "+5V".
+
+Changing footprint "U3:/5C725B15" pad "6" net name from "" to "+5V".
+
+Changing footprint "U10:/5C93D0E1" pad "6" net name from "" to "+5V".
+
+Changing footprint "U1:/5C6C9C01" pad "2" net name from "" to "GND".
+
+Changing footprint "U3:/5C725B15" pad "8" net name from "" to "Net-(U3-Pad8)".
+
+Changing footprint "U3:/5C725B15" pad "9" net name from "" to "GND".
+
+Changing footprint "U3:/5C725B15" pad "10" net name from "" to "Net-(C10-Pad1)".
+
+Changing footprint "U3:/5C725B15" pad "11" net name from "" to "Net-(C8-Pad2)".
+
+Changing footprint "U3:/5C725B15" pad "12" net name from "" to "GND".
+
+Changing footprint "U10:/5C93D0E1" pad "7" net name from "" to "+5V".
+
+Changing footprint "U3:/5C725B15" pad "13" net name from "" to "Net-(U3-Pad13)".
+
+Changing footprint "C16:/5CA487FD" pad "2" net name from "" to "Net-(C16-Pad2)".
+
+Changing footprint "C19:/5C782451" pad "1" net name from "" to "GND".
+
+Changing footprint "C19:/5C782451" pad "2" net name from "" to "Net-(C19-Pad2)".
+
+Adding new symbol "C19:/5C782451" footprint "CC0402ZRY5V7BB104:CAPC1005X55N".
+
+Changing footprint "C18:/5C93D197" pad "1" net name from "" to "GND".
+
+Changing footprint "C18:/5C93D197" pad "2" net name from "" to "Net-(C18-Pad2)".
+
+Adding new symbol "C18:/5C93D197" footprint "CC0402ZRY5V7BB104:CAPC1005X55N".
+
+Changing footprint "C17:/5CA487E8" pad "1" net name from "" to "GND".
+
+Changing footprint "C17:/5CA487E8" pad "2" net name from "" to "Net-(C17-Pad2)".
+
+Adding new symbol "C17:/5CA487E8" footprint "CC0402ZRY5V7BB104:CAPC1005X55N".
+
+Adding new symbol "C20:/5C93D0E8" footprint "CC0402ZRY5V7BB104:CAPC1005X55N".
+
+Changing footprint "C16:/5CA487FD" pad "1" net name from "" to "Net-(C16-Pad1)".
+
+Adding new symbol "C16:/5CA487FD" footprint "CC0402ZRY5V7BB104:CAPC1005X55N".
+
+Changing footprint "C15:/5C76625E" pad "2" net name from "" to "Net-(C15-Pad2)".
+
+Changing footprint "C15:/5C76625E" pad "1" net name from "" to "Net-(C15-Pad1)".
+
+Adding new symbol "C15:/5C76625E" footprint "CC0402ZRY5V7BB104:CAPC1005X55N".
+
+Changing footprint "C14:/5C6CAB4E" pad "2" net name from "" to "Net-(C14-Pad2)".
+
+Changing footprint "C14:/5C6CAB4E" pad "1" net name from "" to "Net-(C14-Pad1)".
+
+Adding new symbol "C14:/5C6CAB4E" footprint "CC0402ZRY5V7BB104:CAPC1005X55N".
+
+Adding new symbol "C23:/5C782595" footprint "CC0402ZRY5V7BB104:CAPC1005X55N".
+
+Adding new symbol "C26:/5C782647" footprint "CC0402ZRY5V7BB104:CAPC1005X55N".
+
+Changing footprint "C25:/5C93D158" pad "2" net name from "" to "Net-(C25-Pad2)".
+
+Changing footprint "C25:/5C93D158" pad "1" net name from "" to "GND".
+
+Adding new symbol "C25:/5C93D158" footprint "CC0402ZRY5V7BB104:CAPC1005X55N".
+
+Changing footprint "C24:/5C93D13C" pad "1" net name from "" to "Net-(C24-Pad1)".
+
+Changing footprint "C24:/5C93D13C" pad "2" net name from "" to "Net-(C24-Pad2)".
+
+Adding new symbol "C24:/5C93D13C" footprint "CC0402ZRY5V7BB104:CAPC1005X55N".
+
+Changing footprint "C23:/5C782595" pad "2" net name from "" to "Net-(C23-Pad2)".
+
+Changing footprint "C23:/5C782595" pad "1" net name from "" to "GND".
+
+Changing footprint "C13:/5C6CAEAA" pad "1" net name from "" to "GND".
+
+Changing footprint "C22:/5C93D17C" pad "2" net name from "" to "Net-(C22-Pad2)".
+
+Changing footprint "C22:/5C93D17C" pad "1" net name from "" to "GND".
+
+Adding new symbol "C22:/5C93D17C" footprint "CC0402ZRY5V7BB104:CAPC1005X55N".
+
+Changing footprint "C21:/5C93D1AF" pad "2" net name from "" to "+5V".
+
+Changing footprint "C21:/5C93D1AF" pad "1" net name from "" to "GND".
+
+Adding new symbol "C21:/5C93D1AF" footprint "CC0402ZRY5V7BB104:CAPC1005X55N".
+
+Changing footprint "C20:/5C93D0E8" pad "2" net name from "" to "Net-(C20-Pad2)".
+
+Changing footprint "C20:/5C93D0E8" pad "1" net name from "" to "LO2".
+
+Adding new symbol "C4:/5C916D1D" footprint "CC0402ZRY5V7BB104:CAPC1005X55N".
+
+Adding new symbol "C7:/5C934F7C" footprint "CC0402ZRY5V7BB104:CAPC1005X55N".
+
+Changing footprint "C6:/5C6CA831" pad "1" net name from "" to "Net-(C6-Pad1)".
+
+Changing footprint "C6:/5C6CA831" pad "2" net name from "" to "Net-(C6-Pad2)".
+
+Adding new symbol "C6:/5C6CA831" footprint "CC0402ZRY5V7BB104:CAPC1005X55N".
+
+Changing footprint "C5:/5C7B070C" pad "1" net name from "" to "Net-(C5-Pad1)".
+
+Changing footprint "C5:/5C7B070C" pad "2" net name from "" to "Net-(C5-Pad2)".
+
+Adding new symbol "C5:/5C7B070C" footprint "CC0402ZRY5V7BB104:CAPC1005X55N".
+
+Changing footprint "C4:/5C916D1D" pad "2" net name from "" to "Net-(C4-Pad2)".
+
+Changing footprint "C4:/5C916D1D" pad "1" net name from "" to "GND".
+
+Changing footprint "C7:/5C934F7C" pad "2" net name from "" to "+5V".
+
+Changing footprint "C3:/5C87BD8E" pad "2" net name from "" to "Net-(C3-Pad2)".
+
+Changing footprint "C3:/5C87BD8E" pad "1" net name from "" to "GND".
+
+Adding new symbol "C3:/5C87BD8E" footprint "CC0402ZRY5V7BB104:CAPC1005X55N".
+
+Changing footprint "C2:/5C87C129" pad "1" net name from "" to "Net-(C2-Pad1)".
+
+Changing footprint "C2:/5C87C129" pad "2" net name from "" to "RFout".
+
+Adding new symbol "C2:/5C87C129" footprint "CC0402ZRY5V7BB104:CAPC1005X55N".
+
+Changing footprint "C1:/5C728858" pad "1" net name from "" to "Net-(C1-Pad1)".
+
+Changing footprint "C1:/5C728858" pad "2" net name from "" to "Net-(C1-Pad2)".
+
+Changing footprint "C10:/5C8AC422" pad "2" net name from "" to "Net-(C10-Pad2)".
+
+Changing footprint "C13:/5C6CAEAA" pad "2" net name from "" to "+3V3".
+
+Adding new symbol "C13:/5C6CAEAA" footprint "CC0402ZRY5V7BB104:CAPC1005X55N".
+
+Changing footprint "C12:/5C8D12B4" pad "2" net name from "" to "Net-(C12-Pad2)".
+
+Changing footprint "C12:/5C8D12B4" pad "1" net name from "" to "Net-(C10-Pad2)".
+
+Adding new symbol "C12:/5C8D12B4" footprint "CC0402ZRY5V7BB104:CAPC1005X55N".
+
+Changing footprint "C11:/5C8B9B12" pad "1" net name from "" to "GND".
+
+Changing footprint "C11:/5C8B9B12" pad "2" net name from "" to "Net-(C11-Pad2)".
+
+Adding new symbol "C11:/5C8B9B12" footprint "CC0402ZRY5V7BB104:CAPC1005X55N".
+
+Changing footprint "C10:/5C8AC422" pad "1" net name from "" to "Net-(C10-Pad1)".
+
+Changing footprint "L12:/5CA48804" pad "2" net name from "" to "GND".
+
+Adding new symbol "C10:/5C8AC422" footprint "CC0402ZRY5V7BB104:CAPC1005X55N".
+
+Changing footprint "C9:/5C6CAA4C" pad "2" net name from "" to "Net-(C9-Pad2)".
+
+Changing footprint "C9:/5C6CAA4C" pad "1" net name from "" to "GND".
+
+Adding new symbol "C9:/5C6CAA4C" footprint "CC0402ZRY5V7BB104:CAPC1005X55N".
+
+Changing footprint "C8:/5C8F256B" pad "1" net name from "" to "GND".
+
+Changing footprint "C8:/5C8F256B" pad "2" net name from "" to "Net-(C8-Pad2)".
+
+Adding new symbol "C8:/5C8F256B" footprint "CC0402ZRY5V7BB104:CAPC1005X55N".
+
+Changing footprint "C7:/5C934F7C" pad "1" net name from "" to "GND".
+
+Adding new symbol "L3:/5C87C1E7" footprint "CC0402ZRY5V7BB104:CAPC1005X55N".
+
+Adding new symbol "L6:/5C8B952F" footprint "CC0402ZRY5V7BB104:CAPC1005X55N".
+
+Changing footprint "L5:/5C6CA99B" pad "2" net name from "" to "Net-(C9-Pad2)".
+
+Changing footprint "L5:/5C6CA99B" pad "1" net name from "" to "Net-(L4-Pad1)".
+
+Adding new symbol "L5:/5C6CA99B" footprint "CC0402ZRY5V7BB104:CAPC1005X55N".
+
+Changing footprint "L4:/5C6CA9F9" pad "1" net name from "" to "Net-(L4-Pad1)".
+
+Changing footprint "L4:/5C6CA9F9" pad "2" net name from "" to "Net-(C6-Pad1)".
+
+Adding new symbol "L4:/5C6CA9F9" footprint "CC0402ZRY5V7BB104:CAPC1005X55N".
+
+Changing footprint "L3:/5C87C1E7" pad "2" net name from "" to "GND".
+
+Changing footprint "L3:/5C87C1E7" pad "1" net name from "" to "Net-(C2-Pad1)".
+
+Changing footprint "L6:/5C8B952F" pad "1" net name from "" to "Net-(C10-Pad1)".
+
+Changing footprint "L2:/5C87BE3C" pad "1" net name from "" to "RFout".
+
+Changing footprint "L2:/5C87BE3C" pad "2" net name from "" to "Net-(C3-Pad2)".
+
+Adding new symbol "L2:/5C87BE3C" footprint "CC0402ZRY5V7BB104:CAPC1005X55N".
+
+Changing footprint "L1:/5C87BF4E" pad "1" net name from "" to "RFout".
+
+Changing footprint "L1:/5C87BF4E" pad "2" net name from "" to "GND".
+
+Adding new symbol "L1:/5C87BF4E" footprint "CC0402ZRY5V7BB104:CAPC1005X55N".
+
+Changing footprint "J11:/5C6C9F3D" pad "1" net name from "" to "Net-(J11-Pad1)".
+
+Changing footprint "J11:/5C6C9F3D" pad "2" net name from "" to "GND".
+
+Changing footprint "L9:/5C6CAAE6" pad "2" net name from "" to "Net-(C14-Pad2)".
+
+Changing footprint "L12:/5CA48804" pad "1" net name from "" to "Net-(C16-Pad1)".
+
+Adding new symbol "L12:/5CA48804" footprint "CC0402ZRY5V7BB104:CAPC1005X55N".
+
+Changing footprint "L11:/5CA487EF" pad "2" net name from "" to "Net-(C17-Pad2)".
+
+Changing footprint "L11:/5CA487EF" pad "1" net name from "" to "Net-(C16-Pad2)".
+
+Adding new symbol "L11:/5CA487EF" footprint "CC0402ZRY5V7BB104:CAPC1005X55N".
+
+Changing footprint "L10:/5CA487F6" pad "1" net name from "" to "Net-(C16-Pad2)".
+
+Changing footprint "L10:/5CA487F6" pad "2" net name from "" to "GND".
+
+Adding new symbol "L10:/5CA487F6" footprint "CC0402ZRY5V7BB104:CAPC1005X55N".
+
+Changing footprint "L9:/5C6CAAE6" pad "1" net name from "" to "+3V3".
+
+Changing footprint "C26:/5C782647" pad "1" net name from "" to "+5V".
+
+Adding new symbol "L9:/5C6CAAE6" footprint "CC0402ZRY5V7BB104:CAPC1005X55N".
+
+Changing footprint "L8:/5C8B3505" pad "2" net name from "" to "Net-(C10-Pad2)".
+
+Changing footprint "L8:/5C8B3505" pad "1" net name from "" to "Net-(C11-Pad2)".
+
+Adding new symbol "L8:/5C8B3505" footprint "CC0402ZRY5V7BB104:CAPC1005X55N".
+
+Changing footprint "L7:/5C8AD28C" pad "2" net name from "" to "Net-(C8-Pad2)".
+
+Changing footprint "L7:/5C8AD28C" pad "1" net name from "" to "Net-(C10-Pad2)".
+
+Adding new symbol "L7:/5C8AD28C" footprint "CC0402ZRY5V7BB104:CAPC1005X55N".
+
+Changing footprint "L6:/5C8B952F" pad "2" net name from "" to "Net-(C11-Pad2)".
+
+Changing footprint "C29:/5C7AC820" pad "2" net name from "" to "Net-(C29-Pad2)".
+
+Adding new symbol "J3:/5C866322" footprint "Connector_Wire:SolderWirePad_1x01_Drill0.8mm".
+
+Changing footprint "J2:/5C866232" pad "1" net name from "" to "Net-(J2-Pad1)".
+
+Adding new symbol "J2:/5C866232" footprint "Connector_Wire:SolderWirePad_1x01_Drill0.8mm".
+
+Changing footprint "J1:/5C6C93AF" pad "1" net name from "" to "Net-(J1-Pad1)".
+
+Adding new symbol "J1:/5C6C93AF" footprint "EMPCB.SMAFSTJ.B.HT:TAOGLAS_EMPCB.SMAFSTJ.B.HT".
+
+Changing footprint "C30:/5C7AC827" pad "2" net name from "" to "GND".
+
+Changing footprint "C30:/5C7AC827" pad "1" net name from "" to "+3V3".
+
+Adding new symbol "C30:/5C7AC827" footprint "CC0402ZRY5V7BB104:CAPC1005X55N".
+
+Changing footprint "C29:/5C7AC820" pad "1" net name from "" to "GND".
+
+Changing footprint "J10:/5C7EF351" pad "1" net name from "" to "GND".
+
+Adding new symbol "C29:/5C7AC820" footprint "CC0402ZRY5V7BB104:CAPC1005X55N".
+
+Changing footprint "C28:/5C7AC819" pad "2" net name from "" to "Net-(C19-Pad2)".
+
+Changing footprint "C28:/5C7AC819" pad "1" net name from "" to "GND".
+
+Adding new symbol "C28:/5C7AC819" footprint "CC0402ZRY5V7BB104:CAPC1005X55N".
+
+Changing footprint "C27:/5C93D167" pad "1" net name from "" to "Net-(C24-Pad2)".
+
+Changing footprint "C27:/5C93D167" pad "2" net name from "" to "Net-(C27-Pad2)".
+
+Adding new symbol "C27:/5C93D167" footprint "CC0402ZRY5V7BB104:CAPC1005X55N".
+
+Changing footprint "C26:/5C782647" pad "2" net name from "" to "GND".
+
+Adding new symbol "J4:/5C733ABD" footprint "EMPCB.SMAFSTJ.B.HT:TAOGLAS_EMPCB.SMAFSTJ.B.HT".
+
+Adding new symbol "J11:/5C6C9F3D" footprint "5-1634503-1:TE_5-1634503-1".
+
+Adding new symbol "J10:/5C7EF351" footprint "Connector_Wire:SolderWirePad_1x01_Drill0.8mm".
+
+Changing footprint "J9:/5C7E721C" pad "1" net name from "" to "Net-(C19-Pad2)".
+
+Adding new symbol "J9:/5C7E721C" footprint "Connector_Wire:SolderWirePad_1x01_Drill0.8mm".
+
+Changing footprint "J8:/5C7F7FC6" pad "1" net name from "" to "Net-(J8-Pad1)".
+
+Changing footprint "J8:/5C7F7FC6" pad "2" net name from "" to "GND".
+
+Adding new symbol "J8:/5C7F7FC6" footprint "5-1634503-1:TE_5-1634503-1".
+
+Changing footprint "J7:/5C766273" pad "2" net name from "" to "GND".
+
+Adding new symbol "J7:/5C766273" footprint "5-1634503-1:TE_5-1634503-1".
+
+Changing footprint "J6:/5C833FE4" pad "2" net name from "" to "GND".
+
+Changing footprint "J6:/5C833FE4" pad "1" net name from "" to "Net-(J6-Pad1)".
+
+Adding new symbol "J6:/5C833FE4" footprint "5-1634503-1:TE_5-1634503-1".
+
+Changing footprint "J5:/5C85A9DF" pad "1" net name from "" to "Net-(J5-Pad1)".
+
+Adding new symbol "J5:/5C85A9DF" footprint "Connector_Wire:SolderWirePad_1x01_Drill0.8mm".
+
+Changing footprint "J4:/5C733ABD" pad "1" net name from "" to "Net-(J4-Pad1)".
+
+Changing footprint "J3:/5C866322" pad "1" net name from "" to "Net-(J3-Pad1)".
+
+Changing footprint "J7:/5C766273" pad "1" net name from "" to "Net-(J7-Pad1)".
+
+Error: Component "U12" pad "2" not found in footprint "FIL_NFM21PC105B1C3D:FIL_NFM21PC105B1C3D"
+
+Error: Component "U12" pad "4" not found in footprint "FIL_NFM21PC105B1C3D:FIL_NFM21PC105B1C3D"
+
+Error: Component "U9" pad "4" not found in footprint "CC0402ZRY5V7BB104:CAPC1005X55N"
+
+Error: Component "U9" pad "3" not found in footprint "CC0402ZRY5V7BB104:CAPC1005X55N"
+
+Error: Component "U7" pad "4" not found in footprint "CC0402ZRY5V7BB104:CAPC1005X55N"
+
+Error: Component "U7" pad "3" not found in footprint "CC0402ZRY5V7BB104:CAPC1005X55N"
+
+Error: Component "U6" pad "4" not found in footprint "FIL_MEM2012V121RT001:FIL_MEM2012V121RT001"
+
+Error: Component "U1" pad "3" not found in footprint "CC0402ZRY5V7BB104:CAPC1005X55N"
+
+Error: Component "U1" pad "4" not found in footprint "CC0402ZRY5V7BB104:CAPC1005X55N"
+
+Error: Component "J4" pad "2" not found in footprint "EMPCB.SMAFSTJ.B.HT:TAOGLAS_EMPCB.SMAFSTJ.B.HT"
+
+Error: Component "J1" pad "2" not found in footprint "EMPCB.SMAFSTJ.B.HT:TAOGLAS_EMPCB.SMAFSTJ.B.HT"
+

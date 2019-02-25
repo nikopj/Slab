@@ -1,0 +1,156 @@
+
+hpeesofsim (*) 471.update1.0 Jul 25 2018, MINT version 4
+    (64-bit linux built: Wed Jul 25, 2018 22:01:58 +0000)
+Copyright 1989 - 2017 Keysight Technologies.
+
+Warning detected by hpeesofsim during netlist flattening.
+    Port or Term `PORT7' is shorted.
+
+
+HB HB1[1] <frontend_lib:receiverchain:behavioral>
+    Number of tones:   1.
+    Number of frequencies:   6.
+    Number of time samples:  16.
+    Number of HB equations (problem size): 484.
+    Auto mode: on.
+    Convergence mode: Auto.
+    Linear solver: direct.
+------------------------------------------------------------------------------
+Newton solver:					
+Iter	KCL residual	Damp %	Sol update
+------------------------------------------------------------------------------
+0.0*	2.96599 mA  	100.0             
+1.0 	87.9035 uA  	100.0	2.03132 V    
+1.1 	214.503 nA  	100.0	90.9772 mV   
+1.2 	10.7071 fA  	100.0	440.285 fV   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+N__25                   8.180e-05       >       1.011e-06
+N__20                   9.728e-06       >       1.000e-06
+MIX6._net1              9.728e-06       >       1.000e-06
+MIX5.SDD7P1.i5          7.106e-06       >       1.001e-06
+MIX5.SDD7P1.i2          2.318e-06       >       1.000e-06
+
+o Number of waveforms violating the HB truncation error check:
+        6 out of 22 waveforms.
+o Estimated max HB truncation error: 8.180e-05 @ waveform N__25 .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 1.011e-06 for this waveform.
+o A time-domain plot of the VOUT waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB HB1[1] <frontend_lib:receiverchain:behavioral>
+    Number of tones:   2.
+    Number of frequencies:   23.
+    Number of time samples:  128.
+    Number of HB equations (problem size): 1980.
+    Auto mode: on.
+    Convergence mode: Auto.
+    Linear solver: direct.
+0.0*	4.34719 pA  	100.0             
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+N__25                   2.262e-05       >       1.011e-06
+MIX6._net1              2.691e-06       >       1.000e-06
+N__20                   2.691e-06       >       1.000e-06
+MIX5.SDD7P1.i5          1.965e-06       >       1.001e-06
+
+o Number of waveforms violating the HB truncation error check:
+        4 out of 22 waveforms.
+o Estimated max HB truncation error: 2.262e-05 @ waveform N__25 .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 1.011e-06 for this waveform.
+o A time-domain plot of the VOUT waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB HB1[1] <frontend_lib:receiverchain:behavioral>
+    Number of tones:   3.
+    Number of frequencies:   68.
+    Number of time samples:  1024.
+    Number of HB equations (problem size): 5940.
+    Auto mode: on.
+    Convergence mode: Auto.
+    Linear solver: Krylov (GS_GMRES).
+    Preconditioner: DCP.
+    The general solver is used for HB Krylov preconditioning.
+0 	10.5874 mA  	100.0             
+1 	2.04001 mA  	100.0	264.686 mV  	  2	5.740e-16   
+2 	14.526 fA   	100.0	12.8981 V   	  1	3.499e-16   
+3 	25.3323 fA  	100.0	695.265 fV  	  2	1.454e-14   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+N__25                   7.762e-06       >       1.011e-06
+
+o Number of waveforms violating the HB truncation error check:
+        1 out of 22 waveforms.
+o Estimated max HB truncation error: 7.762e-06 @ waveform N__25 .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 1.011e-06 for this waveform.
+o A time-domain plot of the VOUT waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+HB HB1[1] <frontend_lib:receiverchain:behavioral>
+    Number of tones:   4.
+    Number of frequencies:   165.
+    Number of time samples:  8192.
+    Number of HB equations (problem size): 14476.
+    Auto mode: on.
+    Convergence mode: Auto.
+    Linear solver: Krylov (GS_GMRES).
+    Preconditioner: DCP.
+    The general solver is used for HB Krylov preconditioning.
+0 	414.387 uA  	100.0             
+1 	12.1215 mA  	100.0	419.835 mV  	  3	1.706e-13   
+2 	1.92668 uA  	100.0	81.7731 V   	  2	6.281e-16   
+3 	29.5425 fA  	100.0	19.0187 mV  	  1	2.052e-12   
+4 	57.9817 fA  	100.0	4.47322 pV  	  3	1.845e-14   
+An HB truncation error may be present.
+o The HB truncation error is due to using a finite order 
+  (number of harmonics) in the representation of the
+  circuit signals.
+
+Waveform                Trunc error             Tolerance
+---------------------------------------------------------
+N__25                   3.449e-06       >       1.012e-06
+
+o Number of waveforms violating the HB truncation error check:
+        1 out of 22 waveforms.
+o Estimated max HB truncation error: 3.449e-06 @ waveform N__25 .
+o The maximal HB truncation error estimate is greater than the 
+  achieved tolerance of 1.012e-06 for this waveform.
+o A time-domain plot of the VOUT waveform may show the error as 
+  Gibbs ripples.
+o To reduce the error, increase the order (number of harmonics) 
+  and re-simulate.
+
+Resource usage:
+    User time                 =     0.76 seconds.
+    System time               =     0.07 seconds.
+    Total CPU time            =     0.83 seconds.
+    Simulation stopwatch time =     0.28 seconds.
+    Total stopwatch time      =     0.80 seconds.
+
+    Physical memory used: 110 MBytes.
+    Incremental virtual memory (data only) used:  44.3 MBytes.
+

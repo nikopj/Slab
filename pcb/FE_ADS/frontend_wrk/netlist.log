@@ -1,0 +1,58 @@
+; Top Design: "frontend_lib:receiverchain:behavioral"
+; Netlisted using Hierarchy Policy: "Standard"
+
+Options ResourceUsage=yes UseNutmegFormat=no EnableOptim=no TopDesignName="frontend_lib:receiverchain:behavioral" DcopOutputNodeVoltages=yes DcopOutputPinCurrents=yes DcopOutputAllSweepPoints=no DcopOutputDcopType=0
+#uselib "ckt" , "S2P"
+S2P:LNA  VIN N__12 0 File="/home/nikopj/Documents/Slab/pcb/FE_ADS/frontend_wrk/sparams/PMA2-33LN+_Unit 1.s2p" Type="touchstone" InterpMode="spline" InterpDom="db" ExtrapMode="interpMode" Temp=27.0 CheckPassivity=0 
+Port:Term3  VOUT 0 Num=3 Z=50 Ohm Noise=yes 
+HB:HB1 MaxOrder=4 Freq[1]=LOfreq1 Freq[2]=INTfreq Freq[3]=LOfreq2 Freq[4]=RFfreq Order[1]=5 Order[2]=5 Order[3]=5 Order[4]=5 StatusLevel=2 OutputPlan="HB1_Output" 
+
+OutputPlan:HB1_Output \
+      Type="Output" \
+      UseNodeNestLevel=yes \
+      NodeNestLevel=2 \
+      UseEquationNestLevel=yes \
+      EquationNestLevel=2 \
+      UseSavedEquationNestLevel=yes \
+      SavedEquationNestLevel=2 \
+      UseDeviceCurrentNestLevel=no \
+      DeviceCurrentNestLevel=0 \
+      DeviceCurrentDeviceType="All" \
+      DeviceCurrentSymSyntax=yes \
+      UseCurrentNestLevel=yes \
+      CurrentNestLevel=999 \
+      UseDeviceVoltageNestLevel=no \
+      DeviceVoltageNestLevel=0 \
+      DeviceVoltageDeviceType="All"
+
+Tran:HB1_tran HB_Sol=1 SteadyState=1 StatusLevel=3 \
+Freq[1]=LOfreq1 Order[1]=5 
+
+Component:tahb_HB1 Module="ATAHB" Type="ModelExtractor" \ 
+ Tran_Analysis="HB1_tran" HB_Analysis="HB1" 
+
+
+RFfreq=915MHz
+INTfreq=886MHz
+LOfreq1=1GHz
+LOfreq2=80MHz
+Port:PORT6  N__24 0 Num=2 Z=50 Ohm Freq=LOfreq2  P[1,1]=polar(dbmtow(4),0) P[1,2]=polar(dbmtow(-21),0) Noise=yes Pac=polar(dbmtow(0),0) 
+Port:PORT2  VIN 0 Num=1 Z=50 Ohm P[1]=polar(dbmtow(-25),0) Freq[1]=RFfreq    Noise=yes Pac=polar(dbmtow(-25),0) 
+Port:PORT7  0 0 Num=4 Z=50 Ohm Freq=200 MHz  P[1,1]=polar(dbmtow(5.2),0) P[1,2]=polar(dbmtow(-65.72),0) P[1,3]=polar(dbmtow(9.23),0) P[1,4]=polar(dbmtow(-61.48),0) P[1,5]=polar(dbmtow(4),0) P[1,6]=polar(dbmtow(-63.62),0) P[1,7]=polar(dbmtow(-3.51),0) Noise=yes Pac=polar(dbmtow(0),0) 
+Port:PORT8  N__2 0 Num=5 Z=50 Ohm Freq=LOfreq1  P[1,1]=polar(dbmtow(4),0) P[1,2]=polar(dbmtow(-21),0) Noise=yes Pac=polar(dbmtow(0),0) 
+#uselib "sml" , "MixerIMT2"
+MixerIMT2:MIX5  N__7 N__25 N__2 ConvGain=dbpolar(-8,0) SP11=polar(0,0) SP12=polar(0,0) SP13=polar(0,0) SP21=polar(0,0) SP22=polar(0,180) SP23=polar(0,0) SP31=polar(0,0) SP32=polar(0,0) SP33=0 M_RF=5 N_LO=5 IMTvalueType=1 IMT_File=read_data("file", "/home/nikopj/Documents/Slab/adex.imt","imt") 
+#uselib "ckt" , "S2P"
+S2P:ATTN  N__12 N__18 0 File="/home/nikopj/Documents/Slab/pcb/FE_ADS/frontend_wrk/sparams/LAT-3+___Plus25degC.s2p" Type="touchstone" InterpMode="spline" InterpDom="db" ExtrapMode="interpMode" Temp=27.0 CheckPassivity=0 
+#uselib "ckt" , "S2P"
+S2P:IFAMP  N__25 N__17 0 File="/home/nikopj/Documents/Slab/pcb/FE_ADS/frontend_wrk/sparams/PMA2-33LN+_Unit 1.s2p" Type="touchstone" InterpMode="spline" InterpDom="db" ExtrapMode="interpMode" Temp=27.0 CheckPassivity=0 
+#uselib "ckt" , "S2P"
+S2P:IFLPF  N__17 N__20 0 File="/home/nikopj/Documents/Slab/pcb/FE_ADS/frontend_wrk/sparams/LFCN-95_UNIT 1.S2P" Type="touchstone" InterpMode="spline" InterpDom="db" ExtrapMode="interpMode" Temp=27.0 CheckPassivity=0 
+#uselib "ckt" , "S2P"
+S2P:LPF  N__23 VOUT 0 File="/home/nikopj/Documents/Slab/pcb/FE_ADS/frontend_wrk/sparams/LFCV-45+.S2P" Type="touchstone" InterpMode="spline" InterpDom="db" ExtrapMode="interpMode" Temp=27.0 CheckPassivity=0 
+#uselib "ckt" , "S2P"
+S2P:ATTN1  N__21 N__7 0 File="/home/nikopj/Documents/Slab/pcb/FE_ADS/frontend_wrk/sparams/LAT-3+___Plus25degC.s2p" Type="touchstone" InterpMode="spline" InterpDom="db" ExtrapMode="interpMode" Temp=27.0 CheckPassivity=0 
+#uselib "sml" , "MixerIMT2"
+MixerIMT2:MIX6  N__20 N__23 N__24 ConvGain=dbpolar(-8,0) SP11=polar(0,0) SP12=polar(0,0) SP13=polar(0,0) SP21=polar(0,0) SP22=polar(0,180) SP23=polar(0,0) SP31=polar(0,0) SP32=polar(0,0) SP33=0 M_RF=5 N_LO=5 IMTvalueType=1 IMT_File=read_data("file", "/home/nikopj/Documents/Slab/adex.imt","imt") 
+#uselib "sml" , "SAW_Filter"
+SAW_Filter:BPF1  N__18 N__21 Fcenter=915 MHz IL=3.5 dB BWpass=40 MHz Apass=3.5 dB BWstop=15 MHz Astop=45 dB GDelay=0.4 usec Aripple=1.7 dB Zin=27 Ohm Zout=27 Ohm WindowType=0 

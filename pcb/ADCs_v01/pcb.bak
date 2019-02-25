@@ -1,0 +1,450 @@
+EESchema Schematic File Version 4
+LIBS:pcb-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "adcs"
+Date "2019-01-24"
+Rev "v01"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Analog_ADC:ADS7040xDCU U1
+U 1 1 5C49DE5B
+P 4450 2050
+F 0 "U1" H 4800 1550 50  0000 C CNN
+F 1 "ADS7040xDCU" H 4850 1450 50  0000 C CNN
+F 2 "Package_SO:VSSOP-8_2.3x2mm_P0.5mm" H 4550 2700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ads7040.pdf" H 4450 2050 50  0001 C CNN
+	1    4450 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L 5-1634503-1:5-1634503-1 J1
+U 1 1 5C49E0CB
+P 3200 2050
+F 0 "J1" H 3256 2415 50  0000 C CNN
+F 1 "5-1634503-1" H 3256 2324 50  0000 C CNN
+F 2 "TE_5-1634503-1" H 3200 2050 50  0001 L BNN
+F 3 "5-1634503-1" H 3200 2050 50  0001 L BNN
+F 4 "5-1634503-1" H 3200 2050 50  0001 L BNN "Field4"
+F 5 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/5-1634503-1/A97581-ND/1755969?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" H 3200 2050 50  0001 L BNN "Field5"
+F 6 "1" H 3200 2050 50  0001 L BNN "Field6"
+F 7 "None" H 3200 2050 50  0001 L BNN "Field7"
+F 8 "TE Connectivity" H 3200 2050 50  0001 L BNN "Field8"
+F 9 "Compliant" H 3200 2050 50  0001 L BNN "Field9"
+F 10 "A97581-ND" H 3200 2050 50  0001 L BNN "Field10"
+F 11 "https://www.te.com/usa-en/product-5-1634503-1.html?te_bu=Cor&te_type=disp&te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&elqCampaignId=32493" H 3200 2050 50  0001 L BNN "Field11"
+F 12 "BNC Str PCB Skt 50Ohm Nickel Pltd" H 3200 2050 50  0001 L BNN "Field12"
+	1    3200 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VAA #PWR05
+U 1 1 5C49E70A
+P 4350 1550
+F 0 "#PWR05" H 4350 1400 50  0001 C CNN
+F 1 "VAA" H 4367 1723 50  0000 C CNN
+F 2 "" H 4350 1550 50  0001 C CNN
+F 3 "" H 4350 1550 50  0001 C CNN
+	1    4350 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR07
+U 1 1 5C49E759
+P 4450 1400
+F 0 "#PWR07" H 4450 1250 50  0001 C CNN
+F 1 "VDD" H 4467 1573 50  0000 C CNN
+F 2 "" H 4450 1400 50  0001 C CNN
+F 3 "" H 4450 1400 50  0001 C CNN
+	1    4450 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J3
+U 1 1 5C49E9AC
+P 5350 1950
+F 0 "J3" H 5377 1976 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 5377 1885 50  0000 L CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_Drill0.8mm" H 5350 1950 50  0001 C CNN
+F 3 "~" H 5350 1950 50  0001 C CNN
+	1    5350 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J4
+U 1 1 5C49EA39
+P 5350 2150
+F 0 "J4" H 5377 2176 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 5377 2085 50  0000 L CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_Drill0.8mm" H 5350 2150 50  0001 C CNN
+F 3 "~" H 5350 2150 50  0001 C CNN
+	1    5350 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 5C49EB32
+P 3850 2250
+F 0 "#PWR03" H 3850 2000 50  0001 C CNN
+F 1 "GND" H 3855 2077 50  0000 C CNN
+F 2 "" H 3850 2250 50  0001 C CNN
+F 3 "" H 3850 2250 50  0001 C CNN
+	1    3850 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 5C49EB4C
+P 3500 2250
+F 0 "#PWR01" H 3500 2000 50  0001 C CNN
+F 1 "GND" H 3505 2077 50  0000 C CNN
+F 2 "" H 3500 2250 50  0001 C CNN
+F 3 "" H 3500 2250 50  0001 C CNN
+	1    3500 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR08
+U 1 1 5C49EB5F
+P 4450 2550
+F 0 "#PWR08" H 4450 2300 50  0001 C CNN
+F 1 "GND" H 4455 2377 50  0000 C CNN
+F 2 "" H 4450 2550 50  0001 C CNN
+F 3 "" H 4450 2550 50  0001 C CNN
+	1    4450 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 1950 5150 1950
+Wire Wire Line
+	5050 2150 5150 2150
+Wire Wire Line
+	4450 2450 4450 2550
+Wire Wire Line
+	4350 1650 4350 1550
+Wire Wire Line
+	4450 1650 4450 1400
+Wire Wire Line
+	3500 2150 3500 2250
+Wire Wire Line
+	3850 2150 3850 2250
+Wire Wire Line
+	3500 1950 3850 1950
+$Comp
+L Analog_ADC:ADS7040xDCU U2
+U 1 1 5C49F134
+P 4450 3700
+F 0 "U2" H 4800 3200 50  0000 C CNN
+F 1 "ADS7040xDCU" H 4850 3100 50  0000 C CNN
+F 2 "Package_SO:VSSOP-8_2.3x2mm_P0.5mm" H 4550 4350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ads7040.pdf" H 4450 3700 50  0001 C CNN
+	1    4450 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L 5-1634503-1:5-1634503-1 J2
+U 1 1 5C49F144
+P 3200 3700
+F 0 "J2" H 3256 4065 50  0000 C CNN
+F 1 "5-1634503-1" H 3256 3974 50  0000 C CNN
+F 2 "TE_5-1634503-1" H 3200 3700 50  0001 L BNN
+F 3 "5-1634503-1" H 3200 3700 50  0001 L BNN
+F 4 "5-1634503-1" H 3200 3700 50  0001 L BNN "Field4"
+F 5 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/5-1634503-1/A97581-ND/1755969?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" H 3200 3700 50  0001 L BNN "Field5"
+F 6 "1" H 3200 3700 50  0001 L BNN "Field6"
+F 7 "None" H 3200 3700 50  0001 L BNN "Field7"
+F 8 "TE Connectivity" H 3200 3700 50  0001 L BNN "Field8"
+F 9 "Compliant" H 3200 3700 50  0001 L BNN "Field9"
+F 10 "A97581-ND" H 3200 3700 50  0001 L BNN "Field10"
+F 11 "https://www.te.com/usa-en/product-5-1634503-1.html?te_bu=Cor&te_type=disp&te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&elqCampaignId=32493" H 3200 3700 50  0001 L BNN "Field11"
+F 12 "BNC Str PCB Skt 50Ohm Nickel Pltd" H 3200 3700 50  0001 L BNN "Field12"
+	1    3200 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VAA #PWR06
+U 1 1 5C49F14B
+P 4350 3200
+F 0 "#PWR06" H 4350 3050 50  0001 C CNN
+F 1 "VAA" H 4367 3373 50  0000 C CNN
+F 2 "" H 4350 3200 50  0001 C CNN
+F 3 "" H 4350 3200 50  0001 C CNN
+	1    4350 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR09
+U 1 1 5C49F151
+P 4450 3050
+F 0 "#PWR09" H 4450 2900 50  0001 C CNN
+F 1 "VDD" H 4467 3223 50  0000 C CNN
+F 2 "" H 4450 3050 50  0001 C CNN
+F 3 "" H 4450 3050 50  0001 C CNN
+	1    4450 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J5
+U 1 1 5C49F157
+P 5350 3600
+F 0 "J5" H 5377 3626 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 5377 3535 50  0000 L CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_Drill0.8mm" H 5350 3600 50  0001 C CNN
+F 3 "~" H 5350 3600 50  0001 C CNN
+	1    5350 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J6
+U 1 1 5C49F15E
+P 5350 3800
+F 0 "J6" H 5377 3826 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 5377 3735 50  0000 L CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_Drill0.8mm" H 5350 3800 50  0001 C CNN
+F 3 "~" H 5350 3800 50  0001 C CNN
+	1    5350 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 5C49F165
+P 3850 3900
+F 0 "#PWR04" H 3850 3650 50  0001 C CNN
+F 1 "GND" H 3855 3727 50  0000 C CNN
+F 2 "" H 3850 3900 50  0001 C CNN
+F 3 "" H 3850 3900 50  0001 C CNN
+	1    3850 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 5C49F16B
+P 3500 3900
+F 0 "#PWR02" H 3500 3650 50  0001 C CNN
+F 1 "GND" H 3505 3727 50  0000 C CNN
+F 2 "" H 3500 3900 50  0001 C CNN
+F 3 "" H 3500 3900 50  0001 C CNN
+	1    3500 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR010
+U 1 1 5C49F171
+P 4450 4200
+F 0 "#PWR010" H 4450 3950 50  0001 C CNN
+F 1 "GND" H 4455 4027 50  0000 C CNN
+F 2 "" H 4450 4200 50  0001 C CNN
+F 3 "" H 4450 4200 50  0001 C CNN
+	1    4450 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 3600 5150 3600
+Wire Wire Line
+	5050 3800 5150 3800
+Wire Wire Line
+	4450 4100 4450 4200
+Wire Wire Line
+	4350 3300 4350 3200
+Wire Wire Line
+	4450 3300 4450 3050
+Wire Wire Line
+	3500 3800 3500 3900
+Wire Wire Line
+	3850 3800 3850 3900
+Wire Wire Line
+	3500 3600 3850 3600
+Wire Wire Line
+	5050 3700 5500 3700
+Wire Wire Line
+	5500 3700 5500 2900
+Wire Wire Line
+	5500 2050 5050 2050
+$Comp
+L Regulator_Linear:TPS79333-EP U3
+U 1 1 5C49FA91
+P 7350 1700
+F 0 "U3" H 7350 2042 50  0000 C CNN
+F 1 "TPS79333-EP" H 7350 1951 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 7350 2025 50  0001 C CIN
+F 3 "http://www.ti.com/lit/ds/symlink/tps79333-ep.pdf" H 7350 1750 50  0001 C CNN
+	1    7350 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C1
+U 1 1 5C49FE0F
+P 6750 1750
+F 0 "C1" H 6865 1796 50  0000 L CNN
+F 1 "0.1u" H 6865 1705 50  0000 L CNN
+F 2 "" H 6750 1750 50  0001 C CNN
+F 3 "~" H 6750 1750 50  0001 C CNN
+	1    6750 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C3
+U 1 1 5C49FFC9
+P 8250 1750
+F 0 "C3" H 8365 1796 50  0000 L CNN
+F 1 "2.2u" H 8365 1705 50  0000 L CNN
+F 2 "" H 8250 1750 50  0001 C CNN
+F 3 "~" H 8250 1750 50  0001 C CNN
+	1    8250 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C2
+U 1 1 5C4A024E
+P 7850 1850
+F 0 "C2" H 7965 1896 50  0000 L CNN
+F 1 "0.01u" H 7965 1805 50  0000 L CNN
+F 2 "" H 7850 1850 50  0001 C CNN
+F 3 "~" H 7850 1850 50  0001 C CNN
+	1    7850 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 1600 7000 1600
+Wire Wire Line
+	7000 1600 7000 1700
+Wire Wire Line
+	7000 1700 7050 1700
+Connection ~ 7000 1600
+Wire Wire Line
+	7000 1600 7050 1600
+Wire Wire Line
+	7650 1700 7850 1700
+Wire Wire Line
+	7650 1600 8250 1600
+$Comp
+L power:GND #PWR013
+U 1 1 5C4A101D
+P 7350 2050
+F 0 "#PWR013" H 7350 1800 50  0001 C CNN
+F 1 "GND" H 7355 1877 50  0000 C CNN
+F 2 "" H 7350 2050 50  0001 C CNN
+F 3 "" H 7350 2050 50  0001 C CNN
+	1    7350 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR011
+U 1 1 5C4A1040
+P 6750 1950
+F 0 "#PWR011" H 6750 1700 50  0001 C CNN
+F 1 "GND" H 6755 1777 50  0000 C CNN
+F 2 "" H 6750 1950 50  0001 C CNN
+F 3 "" H 6750 1950 50  0001 C CNN
+	1    6750 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR014
+U 1 1 5C4A1063
+P 7850 2050
+F 0 "#PWR014" H 7850 1800 50  0001 C CNN
+F 1 "GND" H 7855 1877 50  0000 C CNN
+F 2 "" H 7850 2050 50  0001 C CNN
+F 3 "" H 7850 2050 50  0001 C CNN
+	1    7850 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR015
+U 1 1 5C4A1086
+P 8250 1950
+F 0 "#PWR015" H 8250 1700 50  0001 C CNN
+F 1 "GND" H 8255 1777 50  0000 C CNN
+F 2 "" H 8250 1950 50  0001 C CNN
+F 3 "" H 8250 1950 50  0001 C CNN
+	1    8250 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7850 2050 7850 2000
+Wire Wire Line
+	8250 1950 8250 1900
+Wire Wire Line
+	7350 2050 7350 2000
+Wire Wire Line
+	6750 1950 6750 1900
+$Comp
+L power:VAA #PWR016
+U 1 1 5C4A1D2B
+P 8500 1600
+F 0 "#PWR016" H 8500 1450 50  0001 C CNN
+F 1 "VAA" V 8517 1728 50  0000 L CNN
+F 2 "" H 8500 1600 50  0001 C CNN
+F 3 "" H 8500 1600 50  0001 C CNN
+	1    8500 1600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8250 1600 8500 1600
+Connection ~ 8250 1600
+$Comp
+L Connector:Conn_01x01_Female J8
+U 1 1 5C4A2826
+P 6750 1350
+F 0 "J8" V 6700 1900 50  0000 R CNN
+F 1 "Conn_01x01_Female" V 6600 2250 50  0000 R CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_Drill0.8mm" H 6750 1350 50  0001 C CNN
+F 3 "~" H 6750 1350 50  0001 C CNN
+	1    6750 1350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6750 1550 6750 1600
+Connection ~ 6750 1600
+$Comp
+L power:VDD #PWR012
+U 1 1 5C4A344D
+P 6950 2650
+F 0 "#PWR012" H 6950 2500 50  0001 C CNN
+F 1 "VDD" H 6967 2823 50  0000 C CNN
+F 2 "" H 6950 2650 50  0001 C CNN
+F 3 "" H 6950 2650 50  0001 C CNN
+	1    6950 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J9
+U 1 1 5C4A3472
+P 7200 2750
+F 0 "J9" H 7227 2776 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 7227 2685 50  0000 L CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_Drill0.8mm" H 7200 2750 50  0001 C CNN
+F 3 "~" H 7200 2750 50  0001 C CNN
+	1    7200 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 2750 6950 2750
+Wire Wire Line
+	6950 2750 6950 2650
+$Comp
+L Connector:Conn_01x01_Female J7
+U 1 1 5C4A390B
+P 5850 2900
+F 0 "J7" H 5877 2926 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 5877 2835 50  0000 L CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_Drill0.8mm" H 5850 2900 50  0001 C CNN
+F 3 "~" H 5850 2900 50  0001 C CNN
+	1    5850 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 2900 5500 2900
+Connection ~ 5500 2900
+Wire Wire Line
+	5500 2900 5500 2050
+$EndSCHEMATC

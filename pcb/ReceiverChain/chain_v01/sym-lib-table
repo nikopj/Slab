@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name dk_RF-Amplifiers)(type Legacy)(uri /home/nikopj/Documents/Slab/pcb/Chain_v01/libraries/digikey-kicad-library/digikey-symbols/dk_RF-Amplifiers.lib)(options "")(descr ""))
+  (lib (name chain)(type Legacy)(uri /home/nikopj/Documents/Slab/pcb/Chain_v01/libraries/chain.lib)(options "")(descr ""))
+  (lib (name chain_v01-rescue)(type Legacy)(uri ${KIPRJMOD}/chain_v01-rescue.lib)(options "")(descr ""))
+)

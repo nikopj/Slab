@@ -1,0 +1,30 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# MAX6314US49D3-T
+#
+DEF MAX6314US49D3-T U 0 40 Y Y 1 L N
+F0 "U" 1014 359 50 H V L BNN
+F1 "MAX6314US49D3-T" 989 259 50 H V L BNN
+F2 "21-0052F" 0 0 50 H I L BNN
+F3 "Maxim Integrated" 0 0 50 H I L BNN
+F4 "None" 0 0 50 H I L BNN
+F5 "Unavailable" 0 0 50 H I L BNN
+F6 "None" 0 0 50 H I L BNN
+F7 "MAX6314US49D3-T" 0 0 50 H I L BNN
+F8 "Ic Reset Circuit 4.90v Sot143-4" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 6 300 200 300 -300 N
+P 2 0 0 6 300 -300 2100 -300 N
+P 2 0 0 6 2100 -300 2100 200 N
+P 2 0 0 6 2100 200 300 200 N
+X GND 1 0 0 300 R 40 40 0 0 W 
+X *RESET 2 0 -100 300 R 40 40 0 0 O 
+X *MR 3 2400 -100 300 L 40 40 0 0 I 
+X VCC 4 2400 0 300 L 40 40 0 0 W 
+ENDDRAW
+ENDDEF
+#
+# End Library

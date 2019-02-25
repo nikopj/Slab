@@ -1,0 +1,8 @@
+(fp_lib_table
+  (lib (name digikey-kicad-library)(type KiCad)(uri ${KIPRJMOD}/libraries/digikey-kicad-library)(options "")(descr ""))
+  (lib (name GCJ21BR71H104KA01L)(type Legacy)(uri ${KIPRJMOD}/libraries/caps/c1en7/GCJ21BR71H104KA01L.mod)(options "")(descr ""))
+  (lib (name GCM155R71H103JA55D)(type Legacy)(uri ${KIPRJMOD}/libraries/caps/c1en8/GCM155R71H103JA55D.mod)(options "")(descr ""))
+  (lib (name GRT155R61C225ME13D)(type Legacy)(uri ${KIPRJMOD}/libraries/caps/c22en7/GRT155R61C225ME13D.mod)(options "")(descr ""))
+  (lib (name 5-1634503-1)(type Legacy)(uri ${KIPRJMOD}/libraries/bnc_female/5-1634503-1.mod)(options "")(descr ""))
+  (lib (name GRT188R61H105KE13D)(type Legacy)(uri ${KIPRJMOD}/libraries/caps/c1en6/GRT188R61H105KE13D.mod)(options "")(descr ""))
+)

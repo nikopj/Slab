@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name chain)(type Legacy)(uri /home/nikopj/Documents/Slab/pcb/ReceiverChain/libraries/chain.lib)(options "")(descr ""))
+  (lib (name 5-1814832-1)(type Legacy)(uri /home/nikopj/Documents/Slab/pcb/ReceiverChain/libraries/footprints/sma-straight/5-1814832-1.lib)(options "")(descr ""))
+)
