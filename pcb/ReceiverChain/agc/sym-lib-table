@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name chain)(type Legacy)(uri /home/nikopj/Documents/Slab/pcb/ReceiverChain/libraries/chain.lib)(options "")(descr ""))
+)

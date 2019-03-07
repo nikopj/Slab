@@ -1,0 +1,34 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# DAC081S101CIMMX/NOPB
+#
+DEF DAC081S101CIMMX/NOPB U 0 40 Y Y 1 L N
+F0 "U" -236 672 50 H V L BNN
+F1 "DAC081S101CIMMX/NOPB" -193 -898 50 H V L BNN
+F2 "SOP65P490X109-8N" 0 0 50 H I L BNN
+F3 "Texas Instruments" 0 0 50 H I L BNN
+F4 "TSSOP-8 Texas Instruments" 0 0 50 H I L BNN
+F5 "8-Bit Micro Power Digital-to-Analog Converter with ail-to- ail Output 8-VSSOP -40 to 105" 0 0 50 H I L BNN
+F6 "DAC081S101CIMMX/NOPB" 0 0 50 H I L BNN
+F7 "None" 0 0 50 H I L BNN
+F8 "Unavailable" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 16 -500 600 -500 -800 N
+P 2 0 0 16 -500 -800 500 -800 N
+P 2 0 0 16 500 -800 500 600 N
+P 2 0 0 16 500 600 -500 600 N
+X VA 1 -700 400 200 R 40 40 0 0 W 
+X SCLK 6 -700 200 200 R 40 40 0 0 I 
+X ~SYNC 5 -700 100 200 R 40 40 0 0 I 
+X DIN 7 -700 -100 200 R 40 40 0 0 I 
+X NC_2 3 -700 -300 200 R 40 40 0 0 N 
+X NC 2 -700 -400 200 R 40 40 0 0 N 
+X GND 8 -700 -600 200 R 40 40 0 0 P 
+X VOUT 4 700 400 200 L 40 40 0 0 O 
+ENDDRAW
+ENDDEF
+#
+# End Library

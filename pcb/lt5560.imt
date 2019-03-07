@@ -1,0 +1,12 @@
+! O-type IMT file
+BEGIN IMTDATA
+! Option line for reference power at:
+!           RF = -14 dBm, LO = +4 dBm
+# IMT ( -14 4 )
+! Format line for LO-side harmonics
+%   0     1     2     3     4     5 
+    99    4     19    9     30    21
+	13    0     32    16    33    29
+	64    43    59    43    56    45
+	64    67    67    59    72    57
+END IMTDATA

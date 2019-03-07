@@ -1,0 +1,8 @@
+(fp_lib_table
+  (lib (name footprints)(type KiCad)(uri /home/nikopj/Documents/Slab/pcb/ReceiverChain/libraries/footprints.pretty)(options "")(descr ""))
+  (lib (name 5-1634503-1)(type Legacy)(uri /home/nikopj/Documents/Slab/pcb/ReceiverChain/libraries/footprints/bnc_female/5-1634503-1.mod)(options "")(descr ""))
+  (lib (name LP3985IM5-5.0)(type Legacy)(uri /home/nikopj/Documents/Slab/pcb/ReceiverChain/libraries/footprints/sot23-5/LP3985IM5-5.0.mod)(options "")(descr ""))
+  (lib (name ADR391AUJZ-REEL7)(type Legacy)(uri /home/nikopj/Documents/Slab/pcb/ReceiverChain/libraries/footprints/TSOT-5/ADR391AUJZ-REEL7.mod)(options "")(descr ""))
+  (lib (name DAC081S101CIMMX_NOPB)(type Legacy)(uri /home/nikopj/Documents/Slab/pcb/ReceiverChain/libraries/footprints/vssop8/DAC081S101CIMMX_NOPB.mod)(options "")(descr ""))
+  (lib (name SOT65P210X110-5N)(type Legacy)(uri /home/nikopj/Documents/Slab/pcb/ReceiverChain/libraries/footprints/SC-88A/SOT65P210X110-5N.mod)(options "")(descr ""))
+)
