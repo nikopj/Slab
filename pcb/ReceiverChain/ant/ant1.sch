@@ -1,0 +1,130 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:Antenna_Chip AE1
+U 1 1 5C7458F3
+P 4350 1950
+F 0 "AE1" V 4416 2255 50  0000 L CNN
+F 1 "Antenna_Chip" V 4325 2255 50  0000 L CNN
+F 2 "footprints:0915AT43A0026" H 4250 2125 50  0001 C CNN
+F 3 "~" H 4250 2125 50  0001 C CNN
+	1    4350 1950
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	4250 1850 4250 1600
+Wire Wire Line
+	4250 1600 4500 1600
+Wire Wire Line
+	4250 2050 3850 2050
+Wire Wire Line
+	3500 2050 3350 2050
+Wire Wire Line
+	3350 2050 3350 2150
+Wire Wire Line
+	3850 2050 3850 2150
+Connection ~ 3850 2050
+Wire Wire Line
+	3850 2050 3700 2050
+Connection ~ 3350 2050
+$Comp
+L Connector:Conn_Coaxial J1
+U 1 1 5C746049
+P 2750 2050
+F 0 "J1" H 2680 2288 50  0000 C CNN
+F 1 "SMA" H 2680 2197 50  0000 C CNN
+F 2 "footprints:SMA-EDGE-16" H 2750 2050 50  0001 C CNN
+F 3 " ~" H 2750 2050 50  0001 C CNN
+	1    2750 2050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 5C746115
+P 3850 2400
+F 0 "#PWR03" H 3850 2150 50  0001 C CNN
+F 1 "GND" H 3855 2227 50  0000 C CNN
+F 2 "" H 3850 2400 50  0001 C CNN
+F 3 "" H 3850 2400 50  0001 C CNN
+	1    3850 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 5C746131
+P 3350 2400
+F 0 "#PWR02" H 3350 2150 50  0001 C CNN
+F 1 "GND" H 3355 2227 50  0000 C CNN
+F 2 "" H 3350 2400 50  0001 C CNN
+F 3 "" H 3350 2400 50  0001 C CNN
+	1    3350 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 5C746146
+P 2750 2300
+F 0 "#PWR01" H 2750 2050 50  0001 C CNN
+F 1 "GND" H 2755 2127 50  0000 C CNN
+F 2 "" H 2750 2300 50  0001 C CNN
+F 3 "" H 2750 2300 50  0001 C CNN
+	1    2750 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 2300 2750 2250
+Wire Wire Line
+	3350 2400 3350 2350
+Wire Wire Line
+	2950 2050 3350 2050
+Wire Wire Line
+	3850 2400 3850 2350
+$Comp
+L Device:R_Small R1
+U 1 1 5C7464CC
+P 3350 2250
+F 0 "R1" H 3409 2296 50  0000 L CNN
+F 1 "LC" H 3409 2205 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 3350 2250 50  0001 C CNN
+F 3 "~" H 3350 2250 50  0001 C CNN
+	1    3350 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R3
+U 1 1 5C746594
+P 3850 2250
+F 0 "R3" H 3909 2296 50  0000 L CNN
+F 1 "LC" H 3909 2205 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 3850 2250 50  0001 C CNN
+F 3 "~" H 3850 2250 50  0001 C CNN
+	1    3850 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R2
+U 1 1 5C7465BC
+P 3600 2050
+F 0 "R2" V 3404 2050 50  0000 C CNN
+F 1 "LC" V 3495 2050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 3600 2050 50  0001 C CNN
+F 3 "~" H 3600 2050 50  0001 C CNN
+	1    3600 2050
+	0    1    1    0   
+$EndComp
+Text GLabel 4500 1600 2    50   Input ~ 0
+ant
+$EndSCHEMATC

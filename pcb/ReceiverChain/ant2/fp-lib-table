@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name footprints)(type KiCad)(uri /home/nikopj/Documents/Slab/pcb/ReceiverChain/libraries/footprints.pretty)(options "")(descr ""))
+  (lib (name 5-1814832-1)(type Legacy)(uri /home/nikopj/Documents/Slab/pcb/ReceiverChain/libraries/footprints/sma-straight/5-1814832-1.mod)(options "")(descr ""))
+)

@@ -50,8 +50,6 @@ a=127;
 x = sin(2*pi*f*t+rand(1)*2*pi)*a;
 x(x>127)=127; x(x<-127)=-127;
 
-
-%%
 x = x+a;
 x = round(x);
 plot(cumsum(x(1:50)))
