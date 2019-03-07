@@ -1912,4 +1912,10 @@ F 3 "" H 7900 1850 50  0001 C CNN
 	1    7900 1850
 	1    0    0    -1  
 $EndComp
+Text Notes 4150 1950 0    50   ~ 0
+ENABLE LOW YOU IDIOT
+Text Notes 3550 4250 0    50   ~ 0
+L6 & Co. Need VCC CONNECTION!\n
+Text Notes 8450 4150 0    50   ~ 0
+L6 & Co. Need VCC CONNECTION!\n
 $EndSCHEMATC

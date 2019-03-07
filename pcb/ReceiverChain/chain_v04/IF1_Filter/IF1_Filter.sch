@@ -1,0 +1,87 @@
+EESchema Schematic File Version 4
+LIBS:IF1_Filter-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Conn_Coaxial J1
+U 1 1 5C80AA0E
+P 5250 3850
+F 0 "J1" H 5180 4088 50  0000 C CNN
+F 1 "RF-IN" H 5180 3997 50  0000 C CNN
+F 2 "" H 5250 3850 50  0001 C CNN
+F 3 " ~" H 5250 3850 50  0001 C CNN
+	1    5250 3850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR031
+U 1 1 5C8A1A28
+P 6000 4100
+F 0 "#PWR031" H 6000 3850 50  0001 C CNN
+F 1 "GND" H 6005 3927 50  0000 C CNN
+F 2 "" H 6000 4100 50  0001 C CNN
+F 3 "" H 6000 4100 50  0001 C CNN
+	1    6000 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J7
+U 1 1 5C8BE635
+P 6700 3850
+F 0 "J7" H 6799 3826 50  0000 L CNN
+F 1 "RF-OUT" H 6799 3735 50  0000 L CNN
+F 2 "" H 6700 3850 50  0001 C CNN
+F 3 " ~" H 6700 3850 50  0001 C CNN
+	1    6700 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR049
+U 1 1 5C8C33F5
+P 6700 4050
+F 0 "#PWR049" H 6700 3800 50  0001 C CNN
+F 1 "GND" H 6705 3877 50  0000 C CNN
+F 2 "" H 6700 4050 50  0001 C CNN
+F 3 "" H 6700 4050 50  0001 C CNN
+	1    6700 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 5C9CC46F
+P 5250 4050
+F 0 "#PWR02" H 5250 3800 50  0001 C CNN
+F 1 "GND" H 5255 3877 50  0000 C CNN
+F 2 "" H 5250 4050 50  0001 C CNN
+F 3 "" H 5250 4050 50  0001 C CNN
+	1    5250 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L chain:MEM2012V121R U6
+U 1 1 5C852C25
+P 6000 3950
+F 0 "U6" H 6000 4275 50  0000 C CNN
+F 1 "MEM2012V121R" H 6000 4184 50  0000 C CNN
+F 2 "" H 5950 3950 50  0001 C CNN
+F 3 "" H 5950 3950 50  0001 C CNN
+	1    6000 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 3850 6250 3850
+Wire Wire Line
+	5450 3850 5750 3850
+$EndSCHEMATC
