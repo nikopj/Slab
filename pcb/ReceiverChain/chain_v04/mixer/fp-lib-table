@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name LP3985IM5-5.0)(type Legacy)(uri /home/nikopj/Documents/Slab/pcb/ReceiverChain/libraries/footprints/sot23-5/LP3985IM5-5.0.mod)(options "")(descr ""))
+  (lib (name footprints)(type KiCad)(uri /home/nikopj/Documents/Slab/pcb/ReceiverChain/libraries/footprints.pretty)(options "")(descr ""))
+  (lib (name ISL6292-2CR4Z)(type Legacy)(uri /home/nikopj/Documents/Slab/pcb/ReceiverChain/libraries/footprints/16QFN4x4/ISL6292-2CR4Z.mod)(options "")(descr ""))
+)
