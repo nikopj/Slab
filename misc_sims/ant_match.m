@@ -1,14 +1,12 @@
-
-
-
-%%
 f = 915e6; w = 2*pi*f;
 
 ZL = 50-110*1j;
 ZS = 50;
 
-Larr = [1 3 6.8 10 18 30 36 75 330]*1e-9; ZLarr = 1j*w*Larr;
-Carr = [0.5 1 4 4.4 8 11 15 100 180 47 1e5 10000 1e6 2.2e6]*1e-12; ZCarr = 1./(1j*w*Carr);
+Larr = [1 3 6.8 10 18 30 36 75 330]*1e-9;
+Larr = [1:0.5:20]*1e-9; ZLarr = 1j*w*Larr;
+Carr = [0.5 1 4 4.4 8 11 15 100 180 47 1e5 10000 1e6 2.2e6]*1e-12; 
+Carr = [1:0.5:20]*1e-12; ZCarr = 1./(1j*w*Carr);
 Zarr = [ZLarr ZCarr];
 l = length(Zarr);
 
@@ -31,6 +29,9 @@ end
 
 x,y,z
 abs(Gamma1(x,y,z))
+Q = 0.5*(real(ZS)/abs(Zarr(z)) + real(ZL)/abs(Zarr(x)))
+
+%%
 
 x=0; y=0; z=0;
 M = 2;
@@ -49,6 +50,8 @@ end
 
 x,y
 abs(Gamma2(x,y))
+
+%%
 
 ZL = 30-1j*100;
 ZS = 50;
