@@ -145,12 +145,12 @@ o To reduce the error, increase the order (number of harmonics)
   and re-simulate.
 
 Resource usage:
-    User time                 =     0.76 seconds.
-    System time               =     0.07 seconds.
+    User time                 =     0.79 seconds.
+    System time               =     0.04 seconds.
     Total CPU time            =     0.83 seconds.
-    Simulation stopwatch time =     0.28 seconds.
+    Simulation stopwatch time =     0.27 seconds.
     Total stopwatch time      =     0.80 seconds.
 
-    Physical memory used: 110 MBytes.
+    Physical memory used: 112 MBytes.
     Incremental virtual memory (data only) used:  44.3 MBytes.
 

@@ -49,10 +49,10 @@ S2P:IFAMP  N__25 N__17 0 File="/home/nikopj/Documents/Slab/pcb/FE_ADS/frontend_w
 #uselib "ckt" , "S2P"
 S2P:IFLPF  N__17 N__20 0 File="/home/nikopj/Documents/Slab/pcb/FE_ADS/frontend_wrk/sparams/LFCN-95_UNIT 1.S2P" Type="touchstone" InterpMode="spline" InterpDom="db" ExtrapMode="interpMode" Temp=27.0 CheckPassivity=0 
 #uselib "ckt" , "S2P"
-S2P:LPF  N__23 VOUT 0 File="/home/nikopj/Documents/Slab/pcb/FE_ADS/frontend_wrk/sparams/LFCV-45+.S2P" Type="touchstone" InterpMode="spline" InterpDom="db" ExtrapMode="interpMode" Temp=27.0 CheckPassivity=0 
+S2P:LPF  IF2 VOUT 0 File="/home/nikopj/Documents/Slab/pcb/FE_ADS/frontend_wrk/sparams/LFCV-45+.S2P" Type="touchstone" InterpMode="spline" InterpDom="db" ExtrapMode="interpMode" Temp=27.0 CheckPassivity=0 
 #uselib "ckt" , "S2P"
 S2P:ATTN1  N__21 N__7 0 File="/home/nikopj/Documents/Slab/pcb/FE_ADS/frontend_wrk/sparams/LAT-3+___Plus25degC.s2p" Type="touchstone" InterpMode="spline" InterpDom="db" ExtrapMode="interpMode" Temp=27.0 CheckPassivity=0 
 #uselib "sml" , "MixerIMT2"
-MixerIMT2:MIX6  N__20 N__23 N__24 ConvGain=dbpolar(-8,0) SP11=polar(0,0) SP12=polar(0,0) SP13=polar(0,0) SP21=polar(0,0) SP22=polar(0,180) SP23=polar(0,0) SP31=polar(0,0) SP32=polar(0,0) SP33=0 M_RF=5 N_LO=5 IMTvalueType=1 IMT_File=read_data("file", "/home/nikopj/Documents/Slab/adex.imt","imt") 
+MixerIMT2:MIX6  N__20 IF2 N__24 ConvGain=dbpolar(-8,0) SP11=polar(0,0) SP12=polar(0,0) SP13=polar(0,0) SP21=polar(0,0) SP22=polar(0,180) SP23=polar(0,0) SP31=polar(0,0) SP32=polar(0,0) SP33=0 M_RF=5 N_LO=5 IMTvalueType=1 IMT_File=read_data("file", "/home/nikopj/Documents/Slab/adex.imt","imt") 
 #uselib "sml" , "SAW_Filter"
 SAW_Filter:BPF1  N__18 N__21 Fcenter=915 MHz IL=3.5 dB BWpass=40 MHz Apass=3.5 dB BWstop=15 MHz Astop=45 dB GDelay=0.4 usec Aripple=1.7 dB Zin=27 Ohm Zout=27 Ohm WindowType=0 
