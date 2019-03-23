@@ -1,0 +1,76 @@
+PCBNEW-LibModule-V1  
+# encoding utf-8
+Units mm
+$INDEX
+SOT127P706X180-6N
+$EndINDEX
+$MODULE SOT127P706X180-6N
+Po 0 0 0 15 00000000 00000000 ~~
+Li SOT127P706X180-6N
+Cd 
+Sc 00000000
+At SMD
+Op 0 0 0
+.SolderMask 0
+.SolderPaste 0
+T0 -2.42623 -4.63025 0.480878 0.480878 0 0.05 N V 21 "SOT127P706X180-6N"
+T1 -2.19933 4.64748 0.481168 0.481168 0 0.05 N V 21 "VAL**"
+DS 3.25 -1.75 3.25 1.75 0.127 21
+DS 3.25 1.75 -3.25 1.75 0.127 21
+DS -3.25 1.75 -3.25 -1.75 0.127 21
+DS -3.25 -1.75 3.25 -1.75 0.127 21
+DC -3.3 3.7 -3.1 3.7 0 21
+DC -2.6 1.3 -2.4 1.3 0 27
+DS 3.516 -4.25 3.516 4.25 0.05 26
+DS 3.516 4.25 -3.516 4.25 0.05 26
+DS -3.516 4.25 -3.516 -4.25 0.05 26
+DS -3.516 -4.25 3.516 -4.25 0.05 26
+$PAD
+Sh "1" R 0.92 1.61 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -2.54 3.005
+$EndPAD
+$PAD
+Sh "2" R 0.92 1.61 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -1.27 3.005
+$EndPAD
+$PAD
+Sh "3" R 0.92 1.61 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 0 3.005
+$EndPAD
+$PAD
+Sh "6" R 3.16 1.97 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 0 -3.005
+$EndPAD
+$PAD
+Sh "4" R 0.92 1.61 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 1.27 3.005
+$EndPAD
+$PAD
+Sh "5" R 0.92 1.61 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 2.54 3.005
+$EndPAD
+$EndMODULE SOT127P706X180-6N
