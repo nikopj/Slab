@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name chain)(type Legacy)(uri ${KIPRJMOD}/libraries/chain.lib)(options "")(descr ""))
+  (lib (name Array_v1-rescue)(type Legacy)(uri ${KIPRJMOD}/Array_v1-rescue.lib)(options "")(descr ""))
 )

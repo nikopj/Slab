@@ -11,4 +11,6 @@
   (lib (name LMH6639MF)(type Legacy)(uri ${KIPRJMOD}/libraries/footprints/LMH6639MF.mod)(options "")(descr ""))
   (lib (name ADR391AUJZ-REEL7)(type Legacy)(uri ${KIPRJMOD}/libraries/footprints/ADR391AUJZ-REEL7.mod)(options "")(descr ""))
   (lib (name AD8541ARTZ-R2)(type Legacy)(uri ${KIPRJMOD}/libraries/footprints/AD8541ARTZ-R2.mod)(options "")(descr ""))
+  (lib (name 5-1814832-1)(type Legacy)(uri ${KIPRJMOD}/libraries/footprints/5-1814832-1.mod)(options "")(descr ""))
+  (lib (name DAC081S101CIMM)(type Legacy)(uri ${KIPRJMOD}/libraries/footprints/DAC081S101CIMM.mod)(options "")(descr ""))
 )
