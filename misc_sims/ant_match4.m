@@ -10,11 +10,15 @@ C_arr = [10:0.1:25]*1e-12;
 Z_arr = [1j*w*L_arr, -1j./(w*C_arr)];
 l0 = length(Z_arr);
 
+<<<<<<< HEAD
 ZS = 50; ZL = 7.8-1j*21; % ZL = 50-1j*110;
+=======
+ZS = 50; ZL = 7.8-1j*21;
+>>>>>>> 069f4bb806e88d07aa03b3a687473ed2c3fd7305
 
 lc = length(L_arr+1);
 
-pi_config = {'LLC', 'LCL', 'CCL'};
+pi_config = {'CLC'};
 lc_bounds = containers.Map({'L','C'},{1:lc-1, lc:l0});
 
 figure
@@ -42,7 +46,7 @@ for config = pi_config
     [z, HFz] = ZtoLC(Z_arr(l3),f);
     [X,Y,Z] = ndgrid(x,y,z);
     m=m+1;
-    subplot(1,3,m)
+    subplot(1,length(pi_config),m)
     scatter3(X(I),Y(I),Z(I),Q(I).^2,abs(Gamma(I)))
     xlabel("Z1 ("+HFx+")"); ylabel("Z2 ("+HFy+")"); zlabel("Z3 ("+HFz+")")
     title(config)
