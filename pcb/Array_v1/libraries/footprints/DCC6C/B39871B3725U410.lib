@@ -1,0 +1,32 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# B39871B3725U410
+#
+DEF B39871B3725U410 FL 0 40 Y Y 1 L N
+F0 "FL" -400 330 50 H V L BNN
+F1 "B39871B3725U410" -401 -381 50 H V L BNN
+F2 "SON120P300X300X110-6N" 0 0 50 H I L BNN
+F3 "SMD-6 RF360 Holdings" 0 0 50 H I L BNN
+F4 "B39871B3725U410" 0 0 50 H I L BNN
+F5 "None" 0 0 50 H I L BNN
+F6 "Qualcomm _RF360" 0 0 50 H I L BNN
+F7 "SAW Filter RF 869MHz Frequency 3.5dB 50Ohm SMD 6 Pin DCC6C Automotive" 0 0 50 H I L BNN
+F8 "Unavailable" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 10 -400 300 400 300 N
+P 2 0 0 10 400 300 400 -300 N
+P 2 0 0 10 400 -300 -400 -300 N
+P 2 0 0 10 -400 -300 -400 300 N
+X IN 2 -600 0 200 R 40 40 0 0 I 
+X OUT 5 600 200 200 L 40 40 0 0 O 
+X GND@1 1 600 100 200 L 40 40 0 0 W 
+X GND@2 3 600 0 200 L 40 40 0 0 W 
+X GND@3 4 600 -100 200 L 40 40 0 0 W 
+X GND@4 6 600 -200 200 L 40 40 0 0 W 
+ENDDRAW
+ENDDEF
+#
+# End Library

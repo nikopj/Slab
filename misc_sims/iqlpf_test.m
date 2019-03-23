@@ -42,18 +42,28 @@ x = repmat(a,1,N/4);
 
 close all
 
-f = 5.25e6;
+f = 11e3;
 fs = 1e6;
-N = 1024;
-t = linspace(0,N/fs,N);
-a=127;
+N = 49;
+t = 0:(1/fs):(N/fs);
+a=80;
 x = sin(2*pi*f*t+rand(1)*2*pi)*a;
 x(x>127)=127; x(x<-127)=-127;
 
-x = x+a;
+x = abs(x);
 x = round(x);
-plot(cumsum(x(1:50)))
+figure
+y = cumsum(x);
+plot(y)
+y(end)
 
+
+%%
+close all
+t = linspace(0,10/f,1000);
+x = sin(2*pi*f*t);
+samp = 0:(1/fs):(10/f);
+plot(t,x); hold on; scatter(linspace(0,10/f,length(samp)),samp)
 
 %%
 

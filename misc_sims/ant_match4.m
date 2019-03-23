@@ -10,7 +10,7 @@ C_arr = [10:0.1:25]*1e-12;
 Z_arr = [1j*w*L_arr, -1j./(w*C_arr)];
 l0 = length(Z_arr);
 
-ZS = 50; ZL = 50-1j*110;
+ZS = 50; ZL = 7.8-1j*21; % ZL = 50-1j*110;
 
 lc = length(L_arr+1);
 
