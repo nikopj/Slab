@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:Array_v1-cache
+LIBS:BB-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1083,7 +1084,7 @@ L Connector:Conn_01x01_Female J4
 U 1 1 5CAD1E26
 P 4550 1750
 F 0 "J4" H 4444 1525 50  0000 C CNN
-F 1 "D_VGA11" H 4444 1616 50  0000 C CNN
+F 1 "D_VGA12" H 4444 1616 50  0000 C CNN
 F 2 "Connector_Wire:SolderWirePad_1x01_Drill0.8mm" H 4550 1750 50  0001 C CNN
 F 3 "~" H 4550 1750 50  0001 C CNN
 	1    4550 1750

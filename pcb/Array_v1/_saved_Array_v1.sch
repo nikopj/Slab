@@ -776,7 +776,7 @@ Wire Wire Line
 	9250 4150 8950 4150
 Wire Wire Line
 	8950 4150 8950 3950
-Text GLabel 8000 1250 0    50   Input ~ 0
+Text GLabel 8950 1250 2    50   Input ~ 0
 LO11
 Wire Wire Line
 	8000 1250 8150 1250
@@ -792,7 +792,7 @@ Text GLabel 2800 2200 1    50   Input ~ 0
 LO12
 Wire Wire Line
 	2800 2200 2800 2350
-Text GLabel 8950 1250 2    50   Input ~ 0
+Text GLabel 8950 1400 2    50   Input ~ 0
 LO14
 Wire Wire Line
 	8950 1250 8800 1250
@@ -800,7 +800,7 @@ Text GLabel 2850 4950 1    50   Input ~ 0
 LO14
 Wire Wire Line
 	2850 4950 2850 5100
-Text GLabel 8950 1400 2    50   Input ~ 0
+Text GLabel 8000 1250 0    50   Input ~ 0
 LO13
 Wire Wire Line
 	8950 1400 8800 1400
